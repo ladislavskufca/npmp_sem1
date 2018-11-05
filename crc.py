@@ -1,8 +1,9 @@
+#source https://en.wikipedia.org/wiki/Cyclic_redundancy_check
+
 def crc_remainder(input_bitstring, polynomial_bitstring, initial_filler):
     '''
     Calculates the CRC remainder of a string of bits using a chosen polynomial.
     initial_filler should be '1' or '0'.
-    source https://en.wikipedia.org/wiki/Cyclic_redundancy_check
     '''
     polynomial_bitstring = polynomial_bitstring.lstrip('0')
     len_input = len(input_bitstring)
