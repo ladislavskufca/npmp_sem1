@@ -28,6 +28,6 @@ Temporary Items
 .apdisk
 
 # Java
-.class
+*.class
 
 
