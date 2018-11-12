@@ -35,112 +35,6 @@ status=0
 pszDescription=Main Cell Layer
 [TYPE:QCADCell]
 [TYPE:QCADDesignObject]
-x=1020.000000
-y=320.000000
-bSelected=FALSE
-clr.red=0
-clr.green=65535
-clr.blue=0
-bounding_box.xWorld=1011.000000
-bounding_box.yWorld=311.000000
-bounding_box.cxWorld=18.000000
-bounding_box.cyWorld=18.000000
-[#TYPE:QCADDesignObject]
-cell_options.cxCell=18.000000
-cell_options.cyCell=18.000000
-cell_options.dot_diameter=5.000000
-cell_options.clock=0
-cell_options.mode=QCAD_CELL_MODE_NORMAL
-cell_function=QCAD_CELL_NORMAL
-number_of_dots=4
-[TYPE:CELL_DOT]
-x=1024.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1024.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1015.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1015.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[#TYPE:QCADCell]
-[TYPE:QCADCell]
-[TYPE:QCADDesignObject]
-x=1040.000000
-y=320.000000
-bSelected=FALSE
-clr.red=0
-clr.green=65535
-clr.blue=0
-bounding_box.xWorld=1031.000000
-bounding_box.yWorld=311.000000
-bounding_box.cxWorld=18.000000
-bounding_box.cyWorld=18.000000
-[#TYPE:QCADDesignObject]
-cell_options.cxCell=18.000000
-cell_options.cyCell=18.000000
-cell_options.dot_diameter=5.000000
-cell_options.clock=0
-cell_options.mode=QCAD_CELL_MODE_NORMAL
-cell_function=QCAD_CELL_NORMAL
-number_of_dots=4
-[TYPE:CELL_DOT]
-x=1044.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1044.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1035.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1035.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[#TYPE:QCADCell]
-[TYPE:QCADCell]
-[TYPE:QCADDesignObject]
 x=1060.000000
 y=320.000000
 bSelected=FALSE
@@ -163,7 +57,7 @@ number_of_dots=4
 x=1064.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.978673e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -171,7 +65,7 @@ potential=0.000000
 x=1064.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043092e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -179,7 +73,7 @@ potential=0.000000
 x=1055.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.978673e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -187,7 +81,7 @@ potential=0.000000
 x=1055.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043092e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -216,7 +110,7 @@ number_of_dots=4
 x=1084.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.867873e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -224,7 +118,7 @@ potential=0.000000
 x=1084.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.153892e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -232,7 +126,7 @@ potential=0.000000
 x=1075.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.867873e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -240,7 +134,7 @@ potential=0.000000
 x=1075.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.153892e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -269,7 +163,7 @@ number_of_dots=4
 x=1104.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.693883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -277,7 +171,7 @@ potential=0.000000
 x=1104.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.327881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -285,7 +179,7 @@ potential=0.000000
 x=1095.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.693883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -293,7 +187,7 @@ potential=0.000000
 x=1095.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.327881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -322,7 +216,7 @@ number_of_dots=4
 x=1124.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.009675e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -330,7 +224,7 @@ potential=0.000000
 x=1124.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.012090e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -338,7 +232,7 @@ potential=0.000000
 x=1115.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.009675e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -346,7 +240,7 @@ potential=0.000000
 x=1115.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.012090e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -445,7 +339,7 @@ number_of_dots=4
 x=1084.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.144192e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -453,7 +347,7 @@ potential=0.000000
 x=1084.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.877573e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -461,7 +355,7 @@ potential=0.000000
 x=1075.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.144192e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -469,7 +363,7 @@ potential=0.000000
 x=1075.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.877573e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -498,7 +392,7 @@ number_of_dots=4
 x=1084.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.565464e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -506,7 +400,7 @@ potential=0.000000
 x=1084.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.456301e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -514,7 +408,7 @@ potential=0.000000
 x=1075.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.565464e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -522,7 +416,7 @@ potential=0.000000
 x=1075.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.456301e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -568,7 +462,7 @@ number_of_dots=4
 x=1064.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003397e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -576,7 +470,7 @@ potential=0.000000
 x=1064.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018367e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -584,7 +478,7 @@ potential=0.000000
 x=1055.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003397e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -592,7 +486,7 @@ potential=0.000000
 x=1055.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018367e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -621,7 +515,7 @@ number_of_dots=4
 x=1084.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.712307e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -629,7 +523,7 @@ potential=0.000000
 x=1084.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.309457e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -637,7 +531,7 @@ potential=0.000000
 x=1075.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.712307e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -645,7 +539,7 @@ potential=0.000000
 x=1075.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.309457e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -674,7 +568,7 @@ number_of_dots=4
 x=1104.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005805e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -682,7 +576,7 @@ potential=0.000000
 x=1104.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015959e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -690,7 +584,7 @@ potential=0.000000
 x=1095.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005805e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -698,7 +592,7 @@ potential=0.000000
 x=1095.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015959e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -727,7 +621,7 @@ number_of_dots=4
 x=1084.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.038747e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -735,7 +629,7 @@ potential=0.000000
 x=1084.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.983018e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -743,7 +637,7 @@ potential=0.000000
 x=1075.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.038747e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -751,7 +645,7 @@ potential=0.000000
 x=1075.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.983018e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -780,7 +674,7 @@ number_of_dots=4
 x=1084.500000
 y=375.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=0.000000e+000
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -788,7 +682,7 @@ potential=0.000000
 x=1084.500000
 y=384.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.602176e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -796,7 +690,7 @@ potential=0.000000
 x=1075.500000
 y=384.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=0.000000e+000
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -804,7 +698,7 @@ potential=0.000000
 x=1075.500000
 y=375.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.602176e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -850,7 +744,7 @@ number_of_dots=4
 x=1064.500000
 y=375.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.025863e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -858,7 +752,7 @@ potential=0.000000
 x=1064.500000
 y=384.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.995901e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -866,7 +760,7 @@ potential=0.000000
 x=1055.500000
 y=384.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.025863e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -874,7 +768,7 @@ potential=0.000000
 x=1055.500000
 y=375.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.995901e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -903,7 +797,7 @@ number_of_dots=4
 x=1037.500000
 y=376.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.244318e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -911,7 +805,7 @@ potential=0.000000
 x=1046.500000
 y=376.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.777447e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -919,7 +813,7 @@ potential=0.000000
 x=1046.500000
 y=385.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.244318e-020
 spin=1087336916298940100000000.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -927,7 +821,7 @@ potential=0.000000
 x=1037.500000
 y=385.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.777447e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -973,7 +867,7 @@ number_of_dots=4
 x=1084.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.964872e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -981,7 +875,7 @@ potential=0.000000
 x=1084.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.056892e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -989,7 +883,7 @@ potential=0.000000
 x=1075.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.964872e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -997,7 +891,7 @@ potential=0.000000
 x=1075.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.056892e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1026,7 +920,7 @@ number_of_dots=4
 x=1084.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.577850e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1034,7 +928,7 @@ potential=0.000000
 x=1084.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.432601e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1042,7 +936,7 @@ potential=0.000000
 x=1075.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.577850e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1050,7 +944,7 @@ potential=0.000000
 x=1075.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.432601e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1079,7 +973,7 @@ number_of_dots=4
 x=1084.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592115e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1087,7 +981,7 @@ potential=0.000000
 x=1084.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.006121e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1095,7 +989,7 @@ potential=0.000000
 x=1075.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592115e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1103,7 +997,7 @@ potential=0.000000
 x=1075.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.006121e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1132,7 +1026,7 @@ number_of_dots=4
 x=1044.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592333e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1140,7 +1034,7 @@ potential=0.000000
 x=1044.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.843875e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1148,7 +1042,7 @@ potential=0.000000
 x=1035.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592333e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1156,7 +1050,7 @@ potential=0.000000
 x=1035.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.843875e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1185,7 +1079,7 @@ number_of_dots=4
 x=1024.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592526e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1193,7 +1087,7 @@ potential=0.000000
 x=1024.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.650063e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1201,7 +1095,7 @@ potential=0.000000
 x=1015.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592526e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1209,7 +1103,7 @@ potential=0.000000
 x=1015.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.650063e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1238,7 +1132,7 @@ number_of_dots=4
 x=1004.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1246,7 +1140,7 @@ potential=0.000000
 x=1004.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640544e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1254,7 +1148,7 @@ potential=0.000000
 x=995.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1262,7 +1156,7 @@ potential=0.000000
 x=995.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640544e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1291,7 +1185,7 @@ number_of_dots=4
 x=984.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1299,7 +1193,7 @@ potential=0.000000
 x=984.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640248e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1307,7 +1201,7 @@ potential=0.000000
 x=975.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1315,7 +1209,7 @@ potential=0.000000
 x=975.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640248e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1344,7 +1238,7 @@ number_of_dots=4
 x=964.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1352,7 +1246,7 @@ potential=0.000000
 x=964.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1360,7 +1254,7 @@ potential=0.000000
 x=955.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1368,7 +1262,7 @@ potential=0.000000
 x=955.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1397,7 +1291,7 @@ number_of_dots=4
 x=944.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1405,7 +1299,7 @@ potential=0.000000
 x=944.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1413,7 +1307,7 @@ potential=0.000000
 x=935.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1421,7 +1315,7 @@ potential=0.000000
 x=935.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1450,7 +1344,7 @@ number_of_dots=4
 x=924.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1458,7 +1352,7 @@ potential=0.000000
 x=924.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1466,7 +1360,7 @@ potential=0.000000
 x=915.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1474,7 +1368,7 @@ potential=0.000000
 x=915.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1503,7 +1397,7 @@ number_of_dots=4
 x=904.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1511,7 +1405,7 @@ potential=0.000000
 x=904.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1519,7 +1413,7 @@ potential=0.000000
 x=895.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1527,7 +1421,7 @@ potential=0.000000
 x=895.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1556,7 +1450,7 @@ number_of_dots=4
 x=884.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1564,7 +1458,7 @@ potential=0.000000
 x=884.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1572,7 +1466,7 @@ potential=0.000000
 x=875.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1580,7 +1474,7 @@ potential=0.000000
 x=875.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1609,7 +1503,7 @@ number_of_dots=4
 x=864.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1617,7 +1511,7 @@ potential=0.000000
 x=864.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1625,7 +1519,7 @@ potential=0.000000
 x=855.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1633,7 +1527,7 @@ potential=0.000000
 x=855.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1662,7 +1556,7 @@ number_of_dots=4
 x=844.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1670,7 +1564,7 @@ potential=0.000000
 x=844.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640245e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1678,7 +1572,7 @@ potential=0.000000
 x=835.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1686,7 +1580,7 @@ potential=0.000000
 x=835.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640245e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1715,7 +1609,7 @@ number_of_dots=4
 x=824.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1723,7 +1617,7 @@ potential=0.000000
 x=824.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640494e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1731,7 +1625,7 @@ potential=0.000000
 x=815.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1739,7 +1633,7 @@ potential=0.000000
 x=815.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640494e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1768,7 +1662,7 @@ number_of_dots=4
 x=804.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592527e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1776,7 +1670,7 @@ potential=0.000000
 x=804.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.649131e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1784,7 +1678,7 @@ potential=0.000000
 x=795.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592527e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1792,7 +1686,7 @@ potential=0.000000
 x=795.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.649131e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1821,7 +1715,7 @@ number_of_dots=4
 x=784.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592378e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1829,7 +1723,7 @@ potential=0.000000
 x=784.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.798732e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1837,7 +1731,7 @@ potential=0.000000
 x=775.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592378e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1845,7 +1739,7 @@ potential=0.000000
 x=775.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.798732e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1874,7 +1768,7 @@ number_of_dots=4
 x=764.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.590214e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1882,7 +1776,7 @@ potential=0.000000
 x=764.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.196204e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1890,7 +1784,7 @@ potential=0.000000
 x=755.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.590214e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1898,7 +1792,7 @@ potential=0.000000
 x=755.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.196204e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1927,7 +1821,7 @@ number_of_dots=4
 x=744.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.597809e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1935,7 +1829,7 @@ potential=0.000000
 x=744.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=4.367549e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1943,7 +1837,7 @@ potential=0.000000
 x=735.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.597809e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1951,7 +1845,7 @@ potential=0.000000
 x=735.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=4.367549e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1980,7 +1874,7 @@ number_of_dots=4
 x=724.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.590214e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1988,7 +1882,7 @@ potential=0.000000
 x=724.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.196204e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -1996,7 +1890,7 @@ potential=0.000000
 x=715.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.590214e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2004,7 +1898,7 @@ potential=0.000000
 x=715.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.196204e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2033,7 +1927,7 @@ number_of_dots=4
 x=704.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592378e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2041,7 +1935,7 @@ potential=0.000000
 x=704.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.798732e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2049,7 +1943,7 @@ potential=0.000000
 x=695.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592378e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2057,7 +1951,7 @@ potential=0.000000
 x=695.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.798732e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2086,7 +1980,7 @@ number_of_dots=4
 x=684.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592527e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2094,7 +1988,7 @@ potential=0.000000
 x=684.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.649131e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2102,7 +1996,7 @@ potential=0.000000
 x=675.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592527e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2110,7 +2004,7 @@ potential=0.000000
 x=675.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.649131e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2139,7 +2033,7 @@ number_of_dots=4
 x=664.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2147,7 +2041,7 @@ potential=0.000000
 x=664.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640494e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2155,7 +2049,7 @@ potential=0.000000
 x=655.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2163,7 +2057,7 @@ potential=0.000000
 x=655.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640494e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2192,7 +2086,7 @@ number_of_dots=4
 x=644.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2200,7 +2094,7 @@ potential=0.000000
 x=644.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640245e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2208,7 +2102,7 @@ potential=0.000000
 x=635.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2216,7 +2110,7 @@ potential=0.000000
 x=635.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640245e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2245,7 +2139,7 @@ number_of_dots=4
 x=624.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2253,7 +2147,7 @@ potential=0.000000
 x=624.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2261,7 +2155,7 @@ potential=0.000000
 x=615.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2269,7 +2163,7 @@ potential=0.000000
 x=615.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640233e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2298,7 +2192,7 @@ number_of_dots=4
 x=604.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2306,7 +2200,7 @@ potential=0.000000
 x=604.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2314,7 +2208,7 @@ potential=0.000000
 x=595.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2322,7 +2216,7 @@ potential=0.000000
 x=595.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640232e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2351,7 +2245,7 @@ number_of_dots=4
 x=584.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2359,7 +2253,7 @@ potential=0.000000
 x=584.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640235e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2367,7 +2261,7 @@ potential=0.000000
 x=575.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2375,7 +2269,7 @@ potential=0.000000
 x=575.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640235e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2404,7 +2298,7 @@ number_of_dots=4
 x=564.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2412,7 +2306,7 @@ potential=0.000000
 x=564.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640278e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2420,7 +2314,7 @@ potential=0.000000
 x=555.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592536e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2428,7 +2322,7 @@ potential=0.000000
 x=555.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.640278e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2457,7 +2351,7 @@ number_of_dots=4
 x=544.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592535e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2465,7 +2359,7 @@ potential=0.000000
 x=544.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.641472e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2473,7 +2367,7 @@ potential=0.000000
 x=535.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592535e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2481,7 +2375,7 @@ potential=0.000000
 x=535.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.641472e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2510,7 +2404,7 @@ number_of_dots=4
 x=524.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592499e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2518,7 +2412,7 @@ potential=0.000000
 x=524.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.677139e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2526,7 +2420,7 @@ potential=0.000000
 x=515.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592499e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2534,7 +2428,7 @@ potential=0.000000
 x=515.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.677139e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2563,7 +2457,7 @@ number_of_dots=4
 x=504.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592111e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2571,7 +2465,7 @@ potential=0.000000
 x=504.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.006529e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2579,7 +2473,7 @@ potential=0.000000
 x=495.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592111e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2587,7 +2481,7 @@ potential=0.000000
 x=495.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.006529e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2616,7 +2510,7 @@ number_of_dots=4
 x=484.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.577696e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2624,7 +2518,7 @@ potential=0.000000
 x=484.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.448045e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2632,7 +2526,7 @@ potential=0.000000
 x=475.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.577696e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2640,7 +2534,7 @@ potential=0.000000
 x=475.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.448045e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2669,7 +2563,7 @@ number_of_dots=4
 x=464.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.947113e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2677,7 +2571,7 @@ potential=0.000000
 x=464.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.074651e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2685,7 +2579,7 @@ potential=0.000000
 x=455.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.947113e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2693,7 +2587,7 @@ potential=0.000000
 x=455.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.074651e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2722,7 +2616,7 @@ number_of_dots=4
 x=444.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.555471e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2730,7 +2624,7 @@ potential=0.000000
 x=444.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.466293e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2738,7 +2632,7 @@ potential=0.000000
 x=435.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.555471e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2746,7 +2640,7 @@ potential=0.000000
 x=435.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.466293e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2775,7 +2669,7 @@ number_of_dots=4
 x=424.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.167188e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2783,7 +2677,7 @@ potential=0.000000
 x=424.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.854576e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2791,7 +2685,7 @@ potential=0.000000
 x=415.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.167188e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2799,7 +2693,7 @@ potential=0.000000
 x=415.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.854576e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2828,7 +2722,7 @@ number_of_dots=4
 x=404.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.055218e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2836,7 +2730,7 @@ potential=0.000000
 x=404.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.966546e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2844,7 +2738,7 @@ potential=0.000000
 x=395.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.055218e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2852,7 +2746,7 @@ potential=0.000000
 x=395.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.966546e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2881,7 +2775,7 @@ number_of_dots=4
 x=384.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.023419e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2889,7 +2783,7 @@ potential=0.000000
 x=384.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.998346e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2897,7 +2791,7 @@ potential=0.000000
 x=375.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.023419e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2905,7 +2799,7 @@ potential=0.000000
 x=375.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.998346e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2934,7 +2828,7 @@ number_of_dots=4
 x=364.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.014417e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2942,7 +2836,7 @@ potential=0.000000
 x=364.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.007348e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2950,7 +2844,7 @@ potential=0.000000
 x=355.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.014417e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2958,7 +2852,7 @@ potential=0.000000
 x=355.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.007348e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2987,7 +2881,7 @@ number_of_dots=4
 x=344.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -2995,7 +2889,7 @@ potential=0.000000
 x=344.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3003,7 +2897,7 @@ potential=0.000000
 x=335.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3011,7 +2905,7 @@ potential=0.000000
 x=335.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3040,7 +2934,7 @@ number_of_dots=4
 x=324.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011161e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3048,7 +2942,7 @@ potential=0.000000
 x=324.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010604e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3056,7 +2950,7 @@ potential=0.000000
 x=315.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011161e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3064,7 +2958,7 @@ potential=0.000000
 x=315.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010604e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3093,7 +2987,7 @@ number_of_dots=4
 x=304.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010960e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3101,7 +2995,7 @@ potential=0.000000
 x=304.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010805e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3109,7 +3003,7 @@ potential=0.000000
 x=295.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010960e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3117,7 +3011,7 @@ potential=0.000000
 x=295.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010805e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3146,7 +3040,7 @@ number_of_dots=4
 x=284.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010904e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3154,7 +3048,7 @@ potential=0.000000
 x=284.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010861e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3162,7 +3056,7 @@ potential=0.000000
 x=275.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010904e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3170,7 +3064,7 @@ potential=0.000000
 x=275.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010861e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3199,7 +3093,7 @@ number_of_dots=4
 x=264.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010888e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3207,7 +3101,7 @@ potential=0.000000
 x=264.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3215,7 +3109,7 @@ potential=0.000000
 x=255.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010888e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3223,7 +3117,7 @@ potential=0.000000
 x=255.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3252,7 +3146,7 @@ number_of_dots=4
 x=244.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010884e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3260,7 +3154,7 @@ potential=0.000000
 x=244.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3268,7 +3162,7 @@ potential=0.000000
 x=235.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010884e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3276,7 +3170,7 @@ potential=0.000000
 x=235.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3305,7 +3199,7 @@ number_of_dots=4
 x=224.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3321,7 +3215,7 @@ potential=0.000000
 x=215.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3358,7 +3252,7 @@ number_of_dots=4
 x=344.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010580e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3366,7 +3260,7 @@ potential=0.000000
 x=344.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011184e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3374,7 +3268,7 @@ potential=0.000000
 x=335.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010580e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3382,7 +3276,7 @@ potential=0.000000
 x=335.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011184e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3411,7 +3305,7 @@ number_of_dots=4
 x=344.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008619e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3419,7 +3313,7 @@ potential=0.000000
 x=344.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013145e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3427,7 +3321,7 @@ potential=0.000000
 x=335.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008619e-020
 spin=-0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3435,7 +3329,7 @@ potential=0.000000
 x=335.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013145e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3464,7 +3358,7 @@ number_of_dots=4
 x=344.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.979138e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3472,7 +3366,7 @@ potential=0.000000
 x=344.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.042627e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3480,7 +3374,7 @@ potential=0.000000
 x=335.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.979138e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3488,7 +3382,7 @@ potential=0.000000
 x=335.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.042627e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3517,7 +3411,7 @@ number_of_dots=4
 x=344.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.782953e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3525,7 +3419,7 @@ potential=0.000000
 x=344.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.238812e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3533,7 +3427,7 @@ potential=0.000000
 x=335.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.782953e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3541,7 +3435,7 @@ potential=0.000000
 x=335.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.238812e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3570,7 +3464,7 @@ number_of_dots=4
 x=344.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.691869e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3578,7 +3472,7 @@ potential=0.000000
 x=344.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.329895e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3586,7 +3480,7 @@ potential=0.000000
 x=335.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.691869e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3594,7 +3488,7 @@ potential=0.000000
 x=335.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.329895e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3623,7 +3517,7 @@ number_of_dots=4
 x=344.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.010250e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3631,7 +3525,7 @@ potential=0.000000
 x=344.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.011515e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3639,7 +3533,7 @@ potential=0.000000
 x=335.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.010250e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3647,7 +3541,7 @@ potential=0.000000
 x=335.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.011515e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3746,7 +3640,7 @@ number_of_dots=4
 x=364.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.577841e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3754,7 +3648,7 @@ potential=0.000000
 x=364.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.443923e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3762,7 +3656,7 @@ potential=0.000000
 x=355.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.577841e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3770,7 +3664,7 @@ potential=0.000000
 x=355.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.443923e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3799,7 +3693,7 @@ number_of_dots=4
 x=384.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.506586e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3807,7 +3701,7 @@ potential=0.000000
 x=384.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.515178e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3815,7 +3709,7 @@ potential=0.000000
 x=375.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.506586e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3823,7 +3717,7 @@ potential=0.000000
 x=375.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.515178e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3869,7 +3763,7 @@ number_of_dots=4
 x=324.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.957561e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3877,7 +3771,7 @@ potential=0.000000
 x=324.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.064204e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3885,7 +3779,7 @@ potential=0.000000
 x=315.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.957561e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3893,7 +3787,7 @@ potential=0.000000
 x=315.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.064204e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3922,7 +3816,7 @@ number_of_dots=4
 x=304.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.973594e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3930,7 +3824,7 @@ potential=0.000000
 x=304.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.048171e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3938,7 +3832,7 @@ potential=0.000000
 x=295.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.973594e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3946,7 +3840,7 @@ potential=0.000000
 x=295.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.048171e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3975,7 +3869,7 @@ number_of_dots=4
 x=284.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.814240e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3983,7 +3877,7 @@ potential=0.000000
 x=284.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.207525e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3991,7 +3885,7 @@ potential=0.000000
 x=275.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.814240e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -3999,7 +3893,7 @@ potential=0.000000
 x=275.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.207525e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4028,7 +3922,7 @@ number_of_dots=4
 x=324.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008075e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4036,7 +3930,7 @@ potential=0.000000
 x=324.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013689e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4044,7 +3938,7 @@ potential=0.000000
 x=315.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008075e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4052,7 +3946,7 @@ potential=0.000000
 x=315.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013689e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4081,7 +3975,7 @@ number_of_dots=4
 x=324.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4089,7 +3983,7 @@ potential=0.000000
 x=324.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015889e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4097,7 +3991,7 @@ potential=0.000000
 x=315.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4105,7 +3999,7 @@ potential=0.000000
 x=315.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015889e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4134,7 +4028,7 @@ number_of_dots=4
 x=284.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031431e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4142,7 +4036,7 @@ potential=0.000000
 x=284.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.990333e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4150,7 +4044,7 @@ potential=0.000000
 x=275.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031431e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4158,7 +4052,7 @@ potential=0.000000
 x=275.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.990333e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4187,7 +4081,7 @@ number_of_dots=4
 x=284.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018694e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4195,7 +4089,7 @@ potential=0.000000
 x=284.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003070e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4203,7 +4097,7 @@ potential=0.000000
 x=275.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018694e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4211,7 +4105,7 @@ potential=0.000000
 x=275.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003070e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4257,7 +4151,7 @@ number_of_dots=4
 x=344.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010900e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4265,7 +4159,7 @@ potential=0.000000
 x=344.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010865e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4273,7 +4167,7 @@ potential=0.000000
 x=335.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010900e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4281,7 +4175,7 @@ potential=0.000000
 x=335.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010865e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4310,7 +4204,7 @@ number_of_dots=4
 x=344.500000
 y=155.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010853e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4318,7 +4212,7 @@ potential=0.000000
 x=344.500000
 y=164.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010912e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4326,7 +4220,7 @@ potential=0.000000
 x=335.500000
 y=164.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010853e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4334,7 +4228,7 @@ potential=0.000000
 x=335.500000
 y=155.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010912e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4363,7 +4257,7 @@ number_of_dots=4
 x=344.500000
 y=175.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010872e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4371,7 +4265,7 @@ potential=0.000000
 x=344.500000
 y=184.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010893e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4379,7 +4273,7 @@ potential=0.000000
 x=335.500000
 y=184.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010872e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4387,7 +4281,7 @@ potential=0.000000
 x=335.500000
 y=175.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010893e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4416,7 +4310,7 @@ number_of_dots=4
 x=344.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4424,7 +4318,7 @@ potential=0.000000
 x=344.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010888e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4432,7 +4326,7 @@ potential=0.000000
 x=335.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010876e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4440,7 +4334,7 @@ potential=0.000000
 x=335.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010888e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4469,7 +4363,7 @@ number_of_dots=4
 x=344.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010871e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4477,7 +4371,7 @@ potential=0.000000
 x=344.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010893e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4485,7 +4379,7 @@ potential=0.000000
 x=335.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010871e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4493,7 +4387,7 @@ potential=0.000000
 x=335.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010893e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4522,7 +4416,7 @@ number_of_dots=4
 x=344.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010818e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4530,7 +4424,7 @@ potential=0.000000
 x=344.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010946e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4538,7 +4432,7 @@ potential=0.000000
 x=335.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010818e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4546,7 +4440,7 @@ potential=0.000000
 x=335.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010946e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4575,7 +4469,7 @@ number_of_dots=4
 x=204.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.809853e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4583,7 +4477,7 @@ potential=0.000000
 x=204.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.211912e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4591,7 +4485,7 @@ potential=0.000000
 x=195.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.809853e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4599,7 +4493,7 @@ potential=0.000000
 x=195.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.211912e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4628,7 +4522,7 @@ number_of_dots=4
 x=184.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.977992e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4636,7 +4530,7 @@ potential=0.000000
 x=184.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043772e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4644,7 +4538,7 @@ potential=0.000000
 x=175.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.977992e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4652,7 +4546,7 @@ potential=0.000000
 x=175.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043772e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4681,7 +4575,7 @@ number_of_dots=4
 x=164.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005192e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4689,7 +4583,7 @@ potential=0.000000
 x=164.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.016573e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4697,7 +4591,7 @@ potential=0.000000
 x=155.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.005192e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4705,7 +4599,7 @@ potential=0.000000
 x=155.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.016573e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4734,7 +4628,7 @@ number_of_dots=4
 x=144.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009016e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4742,7 +4636,7 @@ potential=0.000000
 x=144.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.012748e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4750,7 +4644,7 @@ potential=0.000000
 x=135.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009016e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4758,7 +4652,7 @@ potential=0.000000
 x=135.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.012748e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4787,7 +4681,7 @@ number_of_dots=4
 x=124.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010347e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4795,7 +4689,7 @@ potential=0.000000
 x=124.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011418e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4803,7 +4697,7 @@ potential=0.000000
 x=115.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010347e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4811,7 +4705,7 @@ potential=0.000000
 x=115.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011418e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4840,7 +4734,7 @@ number_of_dots=4
 x=104.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4848,7 +4742,7 @@ potential=0.000000
 x=104.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010885e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4856,7 +4750,7 @@ potential=0.000000
 x=95.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4864,7 +4758,7 @@ potential=0.000000
 x=95.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010885e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4893,7 +4787,7 @@ number_of_dots=4
 x=104.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010740e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4901,7 +4795,7 @@ potential=0.000000
 x=104.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011025e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4909,7 +4803,7 @@ potential=0.000000
 x=95.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010740e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4917,7 +4811,7 @@ potential=0.000000
 x=95.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011025e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4946,7 +4840,7 @@ number_of_dots=4
 x=184.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013100e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4954,7 +4848,7 @@ potential=0.000000
 x=184.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008664e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4962,7 +4856,7 @@ potential=0.000000
 x=175.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013100e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -4970,7 +4864,7 @@ potential=0.000000
 x=175.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008664e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5016,7 +4910,7 @@ number_of_dots=4
 x=224.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.575216e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5024,7 +4918,7 @@ potential=0.000000
 x=224.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.446549e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5032,7 +4926,7 @@ potential=0.000000
 x=215.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.575216e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5040,7 +4934,7 @@ potential=0.000000
 x=215.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.446549e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5069,7 +4963,7 @@ number_of_dots=4
 x=244.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.030454e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5077,7 +4971,7 @@ potential=0.000000
 x=244.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.399131e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5085,7 +4979,7 @@ potential=0.000000
 x=235.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.030454e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5093,7 +4987,7 @@ potential=0.000000
 x=235.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.399131e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5122,7 +5016,7 @@ number_of_dots=4
 x=264.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.585416e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5130,7 +5024,7 @@ potential=0.000000
 x=264.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.436349e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5138,7 +5032,7 @@ potential=0.000000
 x=255.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.585416e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5146,7 +5040,7 @@ potential=0.000000
 x=255.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.436349e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5175,7 +5069,7 @@ number_of_dots=4
 x=104.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5183,7 +5077,7 @@ potential=0.000000
 x=104.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010878e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5191,7 +5085,7 @@ potential=0.000000
 x=95.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5199,7 +5093,7 @@ potential=0.000000
 x=95.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010878e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5228,7 +5122,7 @@ number_of_dots=4
 x=104.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010884e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5236,7 +5130,7 @@ potential=0.000000
 x=104.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5244,7 +5138,7 @@ potential=0.000000
 x=95.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010884e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5252,7 +5146,7 @@ potential=0.000000
 x=95.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5281,7 +5175,7 @@ number_of_dots=4
 x=104.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5297,7 +5191,7 @@ potential=0.000000
 x=95.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5968,7 +5862,7 @@ number_of_dots=4
 x=404.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.945823e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5976,7 +5870,7 @@ potential=0.000000
 x=404.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.407594e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5984,7 +5878,7 @@ potential=0.000000
 x=395.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.945823e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -5992,7 +5886,7 @@ potential=0.000000
 x=395.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.407594e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6021,7 +5915,7 @@ number_of_dots=4
 x=424.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.567391e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6029,7 +5923,7 @@ potential=0.000000
 x=424.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.454374e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6037,7 +5931,7 @@ potential=0.000000
 x=415.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.567391e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6045,7 +5939,7 @@ potential=0.000000
 x=415.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.454374e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6074,7 +5968,7 @@ number_of_dots=4
 x=444.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815265e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6082,7 +5976,7 @@ potential=0.000000
 x=444.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206500e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6090,7 +5984,7 @@ potential=0.000000
 x=435.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815265e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6098,7 +5992,7 @@ potential=0.000000
 x=435.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206500e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6127,7 +6021,7 @@ number_of_dots=4
 x=464.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010963e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6135,7 +6029,7 @@ potential=0.000000
 x=464.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010801e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6143,7 +6037,7 @@ potential=0.000000
 x=455.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010963e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6151,7 +6045,7 @@ potential=0.000000
 x=455.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010801e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6180,7 +6074,7 @@ number_of_dots=4
 x=484.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206250e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6188,7 +6082,7 @@ potential=0.000000
 x=484.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815515e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6196,7 +6090,7 @@ potential=0.000000
 x=475.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206250e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6204,7 +6098,7 @@ potential=0.000000
 x=475.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815515e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6233,7 +6127,7 @@ number_of_dots=4
 x=464.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6241,7 +6135,7 @@ potential=0.000000
 x=464.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6249,7 +6143,7 @@ potential=0.000000
 x=455.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010881e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6257,7 +6151,7 @@ potential=0.000000
 x=455.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6303,7 +6197,7 @@ number_of_dots=4
 x=604.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.217552e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6311,7 +6205,7 @@ potential=0.000000
 x=604.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.804212e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6319,7 +6213,7 @@ potential=0.000000
 x=595.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.217552e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6327,7 +6221,7 @@ potential=0.000000
 x=595.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.804212e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6356,7 +6250,7 @@ number_of_dots=4
 x=584.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.076095e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6364,7 +6258,7 @@ potential=0.000000
 x=584.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.945670e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6372,7 +6266,7 @@ potential=0.000000
 x=575.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.076095e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6380,7 +6274,7 @@ potential=0.000000
 x=575.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.945670e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6409,7 +6303,7 @@ number_of_dots=4
 x=564.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.214867e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6417,7 +6311,7 @@ potential=0.000000
 x=564.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.806898e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6425,7 +6319,7 @@ potential=0.000000
 x=555.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.214867e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6433,7 +6327,7 @@ potential=0.000000
 x=555.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.806898e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6462,7 +6356,7 @@ number_of_dots=4
 x=544.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.436975e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6470,7 +6364,7 @@ potential=0.000000
 x=544.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.584790e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6478,7 +6372,7 @@ potential=0.000000
 x=535.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.436975e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6486,7 +6380,7 @@ potential=0.000000
 x=535.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.584790e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6515,7 +6409,7 @@ number_of_dots=4
 x=524.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.398994e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6523,7 +6417,7 @@ potential=0.000000
 x=524.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.031825e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6531,7 +6425,7 @@ potential=0.000000
 x=515.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.398994e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6539,7 +6433,7 @@ potential=0.000000
 x=515.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.031825e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6568,7 +6462,7 @@ number_of_dots=4
 x=504.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.444599e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6576,7 +6470,7 @@ potential=0.000000
 x=504.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.577166e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6584,7 +6478,7 @@ potential=0.000000
 x=495.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.444599e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6592,7 +6486,7 @@ potential=0.000000
 x=495.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.577166e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6621,7 +6515,7 @@ number_of_dots=4
 x=584.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.006479e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6629,7 +6523,7 @@ potential=0.000000
 x=584.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015285e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6637,7 +6531,7 @@ potential=0.000000
 x=575.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.006479e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6645,7 +6539,7 @@ potential=0.000000
 x=575.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015285e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6691,7 +6585,7 @@ number_of_dots=4
 x=664.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.437239e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6699,7 +6593,7 @@ potential=0.000000
 x=664.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.584525e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6707,7 +6601,7 @@ potential=0.000000
 x=655.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.437239e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6715,7 +6609,7 @@ potential=0.000000
 x=655.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.584525e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6744,7 +6638,7 @@ number_of_dots=4
 x=644.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.399461e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6752,7 +6646,7 @@ potential=0.000000
 x=644.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.027152e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6760,7 +6654,7 @@ potential=0.000000
 x=635.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.399461e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6768,7 +6662,7 @@ potential=0.000000
 x=635.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.027152e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6797,7 +6691,7 @@ number_of_dots=4
 x=624.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.448933e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6805,7 +6699,7 @@ potential=0.000000
 x=624.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.572832e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6813,7 +6707,7 @@ potential=0.000000
 x=615.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.448933e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6821,7 +6715,7 @@ potential=0.000000
 x=615.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.572832e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6850,7 +6744,7 @@ number_of_dots=4
 x=744.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.017119e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6858,7 +6752,7 @@ potential=0.000000
 x=744.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.004645e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6866,7 +6760,7 @@ potential=0.000000
 x=735.500000
 y=264.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.017119e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6874,7 +6768,7 @@ potential=0.000000
 x=735.500000
 y=255.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.004645e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6903,7 +6797,7 @@ number_of_dots=4
 x=744.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.006735e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6911,7 +6805,7 @@ potential=0.000000
 x=744.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015030e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6919,7 +6813,7 @@ potential=0.000000
 x=735.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.006735e-020
 spin=-0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6927,7 +6821,7 @@ potential=0.000000
 x=735.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.015030e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6956,7 +6850,7 @@ number_of_dots=4
 x=744.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.989846e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6964,7 +6858,7 @@ potential=0.000000
 x=744.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031919e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6972,7 +6866,7 @@ potential=0.000000
 x=735.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.989846e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -6980,7 +6874,7 @@ potential=0.000000
 x=735.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031919e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7009,7 +6903,7 @@ number_of_dots=4
 x=744.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.045964e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7017,7 +6911,7 @@ potential=0.000000
 x=744.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.975800e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7025,7 +6919,7 @@ potential=0.000000
 x=735.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.045964e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7033,7 +6927,7 @@ potential=0.000000
 x=735.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.975800e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7062,7 +6956,7 @@ number_of_dots=4
 x=744.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.702323e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7070,7 +6964,7 @@ potential=0.000000
 x=744.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.319442e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7078,7 +6972,7 @@ potential=0.000000
 x=735.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.702323e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7086,7 +6980,7 @@ potential=0.000000
 x=735.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.319442e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7115,7 +7009,7 @@ number_of_dots=4
 x=744.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.007341e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7123,7 +7017,7 @@ potential=0.000000
 x=744.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.014424e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7131,7 +7025,7 @@ potential=0.000000
 x=735.500000
 y=364.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.007341e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7139,7 +7033,7 @@ potential=0.000000
 x=735.500000
 y=355.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.014424e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7238,7 +7132,7 @@ number_of_dots=4
 x=764.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.435843e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7246,7 +7140,7 @@ potential=0.000000
 x=764.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.585922e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7254,7 +7148,7 @@ potential=0.000000
 x=755.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.435843e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7262,7 +7156,7 @@ potential=0.000000
 x=755.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.585922e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7291,7 +7185,7 @@ number_of_dots=4
 x=784.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.522644e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7299,7 +7193,7 @@ potential=0.000000
 x=784.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.499120e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7307,7 +7201,7 @@ potential=0.000000
 x=775.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.522644e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7315,7 +7209,7 @@ potential=0.000000
 x=775.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.499120e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7361,7 +7255,7 @@ number_of_dots=4
 x=724.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.052790e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7369,7 +7263,7 @@ potential=0.000000
 x=724.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.968975e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7377,7 +7271,7 @@ potential=0.000000
 x=715.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.052790e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7385,7 +7279,7 @@ potential=0.000000
 x=715.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.968975e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7414,7 +7308,7 @@ number_of_dots=4
 x=704.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.051029e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7422,7 +7316,7 @@ potential=0.000000
 x=704.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.970735e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7430,7 +7324,7 @@ potential=0.000000
 x=695.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.051029e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7438,7 +7332,7 @@ potential=0.000000
 x=695.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.970735e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7467,7 +7361,7 @@ number_of_dots=4
 x=684.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.208139e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7475,7 +7369,7 @@ potential=0.000000
 x=684.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.813626e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7483,7 +7377,7 @@ potential=0.000000
 x=675.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.208139e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7491,7 +7385,7 @@ potential=0.000000
 x=675.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.813626e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7520,7 +7414,7 @@ number_of_dots=4
 x=724.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011364e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7528,7 +7422,7 @@ potential=0.000000
 x=724.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010400e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7536,7 +7430,7 @@ potential=0.000000
 x=715.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.011364e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7544,7 +7438,7 @@ potential=0.000000
 x=715.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010400e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7573,7 +7467,7 @@ number_of_dots=4
 x=724.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009330e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7581,7 +7475,7 @@ potential=0.000000
 x=724.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.012434e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7589,7 +7483,7 @@ potential=0.000000
 x=715.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.009330e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7597,7 +7491,7 @@ potential=0.000000
 x=715.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.012434e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7626,7 +7520,7 @@ number_of_dots=4
 x=684.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.990377e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7634,7 +7528,7 @@ potential=0.000000
 x=684.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031387e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7642,7 +7536,7 @@ potential=0.000000
 x=675.500000
 y=304.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.990377e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7650,7 +7544,7 @@ potential=0.000000
 x=675.500000
 y=295.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.031387e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7679,7 +7573,7 @@ number_of_dots=4
 x=684.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003102e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7687,7 +7581,7 @@ potential=0.000000
 x=684.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018663e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7695,7 +7589,7 @@ potential=0.000000
 x=675.500000
 y=284.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.003102e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7703,7 +7597,7 @@ potential=0.000000
 x=675.500000
 y=275.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.018663e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7749,7 +7643,7 @@ number_of_dots=4
 x=804.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.408530e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7757,7 +7651,7 @@ potential=0.000000
 x=804.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.936464e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7765,7 +7659,7 @@ potential=0.000000
 x=795.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.408530e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7773,7 +7667,7 @@ potential=0.000000
 x=795.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.936464e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7802,7 +7696,7 @@ number_of_dots=4
 x=824.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.456526e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7810,7 +7704,7 @@ potential=0.000000
 x=824.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.565239e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7818,7 +7712,7 @@ potential=0.000000
 x=815.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.456526e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7826,7 +7720,7 @@ potential=0.000000
 x=815.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.565239e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7855,7 +7749,7 @@ number_of_dots=4
 x=844.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206802e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7863,7 +7757,7 @@ potential=0.000000
 x=844.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.814963e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7871,7 +7765,7 @@ potential=0.000000
 x=835.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206802e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7879,7 +7773,7 @@ potential=0.000000
 x=835.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.814963e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7908,7 +7802,7 @@ number_of_dots=4
 x=864.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010867e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7916,7 +7810,7 @@ potential=0.000000
 x=864.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010898e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7924,7 +7818,7 @@ potential=0.000000
 x=855.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010867e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7932,7 +7826,7 @@ potential=0.000000
 x=855.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010898e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7961,7 +7855,7 @@ number_of_dots=4
 x=884.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815629e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7969,7 +7863,7 @@ potential=0.000000
 x=884.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206135e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7977,7 +7871,7 @@ potential=0.000000
 x=875.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.815629e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -7985,7 +7879,7 @@ potential=0.000000
 x=875.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.206135e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8014,7 +7908,7 @@ number_of_dots=4
 x=864.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8022,7 +7916,7 @@ potential=0.000000
 x=864.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8030,7 +7924,7 @@ potential=0.000000
 x=855.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010879e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8038,7 +7932,7 @@ potential=0.000000
 x=855.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010886e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8059,59 +7953,6 @@ bounding_box.cyWorld=22.000000
 [#TYPE:QCADStretchyObject]
 psz=B1
 [#TYPE:QCADLabel]
-[#TYPE:QCADCell]
-[TYPE:QCADCell]
-[TYPE:QCADDesignObject]
-x=1000.000000
-y=320.000000
-bSelected=FALSE
-clr.red=0
-clr.green=65535
-clr.blue=0
-bounding_box.xWorld=991.000000
-bounding_box.yWorld=311.000000
-bounding_box.cxWorld=18.000000
-bounding_box.cyWorld=18.000000
-[#TYPE:QCADDesignObject]
-cell_options.cxCell=18.000000
-cell_options.cyCell=18.000000
-cell_options.dot_diameter=5.000000
-cell_options.clock=0
-cell_options.mode=QCAD_CELL_MODE_NORMAL
-cell_function=QCAD_CELL_NORMAL
-number_of_dots=4
-[TYPE:CELL_DOT]
-x=1004.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=1004.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=995.500000
-y=324.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=995.500000
-y=315.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
 [#TYPE:QCADCell]
 [TYPE:QCADCell]
 [TYPE:QCADDesignObject]
@@ -8137,7 +7978,7 @@ number_of_dots=4
 x=984.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.978596e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8145,7 +7986,7 @@ potential=0.000000
 x=984.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043169e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8153,7 +7994,7 @@ potential=0.000000
 x=975.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.978596e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8161,7 +8002,7 @@ potential=0.000000
 x=975.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.043169e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8190,7 +8031,7 @@ number_of_dots=4
 x=964.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.812660e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8198,7 +8039,7 @@ potential=0.000000
 x=964.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.209104e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8206,7 +8047,7 @@ potential=0.000000
 x=955.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.812660e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8214,7 +8055,7 @@ potential=0.000000
 x=955.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.209104e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8243,7 +8084,7 @@ number_of_dots=4
 x=944.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.587174e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8251,7 +8092,7 @@ potential=0.000000
 x=944.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.434590e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8259,7 +8100,7 @@ potential=0.000000
 x=935.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.587174e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8267,7 +8108,7 @@ potential=0.000000
 x=935.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.434590e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8296,7 +8137,7 @@ number_of_dots=4
 x=924.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.035001e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8304,7 +8145,7 @@ potential=0.000000
 x=924.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.398676e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8312,7 +8153,7 @@ potential=0.000000
 x=915.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=2.035001e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8320,7 +8161,7 @@ potential=0.000000
 x=915.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.398676e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8349,7 +8190,7 @@ number_of_dots=4
 x=904.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.577921e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8357,7 +8198,7 @@ potential=0.000000
 x=904.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.443843e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8365,7 +8206,7 @@ potential=0.000000
 x=895.500000
 y=324.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.577921e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8373,7 +8214,7 @@ potential=0.000000
 x=895.500000
 y=315.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.443843e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8402,7 +8243,7 @@ number_of_dots=4
 x=984.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013096e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8410,7 +8251,7 @@ potential=0.000000
 x=984.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008668e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8418,7 +8259,7 @@ potential=0.000000
 x=975.500000
 y=344.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.013096e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8426,7 +8267,7 @@ potential=0.000000
 x=975.500000
 y=335.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.008668e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8472,7 +8313,7 @@ number_of_dots=4
 x=1084.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592499e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8480,7 +8321,7 @@ potential=0.000000
 x=1084.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.677160e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8488,7 +8329,7 @@ potential=0.000000
 x=1075.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592499e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8496,7 +8337,7 @@ potential=0.000000
 x=1075.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.677160e-022
 spin=0.000000
 potential=-5486124072705574700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000
 [#TYPE:CELL_DOT]
@@ -8525,7 +8366,7 @@ number_of_dots=4
 x=1084.500000
 y=175.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592525e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8533,7 +8374,7 @@ potential=0.000000
 x=1084.500000
 y=184.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.651288e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8541,7 +8382,7 @@ potential=0.000000
 x=1075.500000
 y=184.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592525e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8549,7 +8390,7 @@ potential=0.000000
 x=1075.500000
 y=175.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.651288e-022
 spin=0.000000
 potential=-1.000000
 [#TYPE:CELL_DOT]
@@ -8578,7 +8419,7 @@ number_of_dots=4
 x=1084.500000
 y=155.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592333e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8586,7 +8427,7 @@ potential=0.000000
 x=1084.500000
 y=164.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.843922e-022
 spin=0.000000
 potential=-8928602494843612900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000
 [#TYPE:CELL_DOT]
@@ -8594,7 +8435,7 @@ potential=-892860249484361290000000000000000000000000000000000000000000000000000
 x=1075.500000
 y=164.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592333e-019
 spin=-0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8602,7 +8443,7 @@ potential=0.000000
 x=1075.500000
 y=155.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.843922e-022
 spin=0.000000
 potential=-1.000000
 [#TYPE:CELL_DOT]
@@ -8631,7 +8472,7 @@ number_of_dots=4
 x=1084.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.589675e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8639,7 +8480,7 @@ potential=0.000000
 x=1084.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.250129e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8647,7 +8488,7 @@ potential=0.000000
 x=1075.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.589675e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8655,7 +8496,7 @@ potential=0.000000
 x=1075.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.250129e-021
 spin=0.000000
 potential=-5486380438153865200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000
 [#TYPE:CELL_DOT]
@@ -8684,7 +8525,7 @@ number_of_dots=4
 x=1084.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592470e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8692,7 +8533,7 @@ potential=0.000000
 x=1084.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.706931e-022
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8700,7 +8541,7 @@ potential=0.000000
 x=1075.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.592470e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8708,7 +8549,7 @@ potential=0.000000
 x=1075.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.706931e-022
 spin=0.000000
 potential=-1.000000
 [#TYPE:CELL_DOT]
@@ -8737,7 +8578,7 @@ number_of_dots=4
 x=1064.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.589675e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8745,7 +8586,7 @@ potential=0.000000
 x=1064.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.250128e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8753,7 +8594,7 @@ potential=0.000000
 x=1055.500000
 y=124.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.589675e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8761,7 +8602,7 @@ potential=0.000000
 x=1055.500000
 y=115.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.250128e-021
 spin=0.000000
 potential=-5486124072705574700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000
 [#TYPE:CELL_DOT]
@@ -8790,7 +8631,7 @@ number_of_dots=4
 x=744.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.586073e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8798,7 +8639,7 @@ potential=0.000000
 x=744.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.610351e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8806,7 +8647,7 @@ potential=0.000000
 x=735.500000
 y=144.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.586073e-019
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8814,7 +8655,7 @@ potential=0.000000
 x=735.500000
 y=135.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=1.610351e-021
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8824,117 +8665,11 @@ potential=0.000000
 x=740.000000
 y=160.000000
 bSelected=FALSE
-clr.red=0
-clr.green=65535
-clr.blue=65535
-bounding_box.xWorld=731.000000
-bounding_box.yWorld=151.000000
-bounding_box.cxWorld=18.000000
-bounding_box.cyWorld=18.000000
-[#TYPE:QCADDesignObject]
-cell_options.cxCell=18.000000
-cell_options.cyCell=18.000000
-cell_options.dot_diameter=5.000000
-cell_options.clock=2
-cell_options.mode=QCAD_CELL_MODE_NORMAL
-cell_function=QCAD_CELL_NORMAL
-number_of_dots=4
-[TYPE:CELL_DOT]
-x=744.500000
-y=155.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=744.500000
-y=164.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=735.500000
-y=164.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=735.500000
-y=155.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[#TYPE:QCADCell]
-[TYPE:QCADCell]
-[TYPE:QCADDesignObject]
-x=740.000000
-y=180.000000
-bSelected=FALSE
-clr.red=0
-clr.green=65535
-clr.blue=65535
-bounding_box.xWorld=731.000000
-bounding_box.yWorld=171.000000
-bounding_box.cxWorld=18.000000
-bounding_box.cyWorld=18.000000
-[#TYPE:QCADDesignObject]
-cell_options.cxCell=18.000000
-cell_options.cyCell=18.000000
-cell_options.dot_diameter=5.000000
-cell_options.clock=2
-cell_options.mode=QCAD_CELL_MODE_NORMAL
-cell_function=QCAD_CELL_NORMAL
-number_of_dots=4
-[TYPE:CELL_DOT]
-x=744.500000
-y=175.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=744.500000
-y=184.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=735.500000
-y=184.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[TYPE:CELL_DOT]
-x=735.500000
-y=175.500000
-diameter=5.000000
-charge=8.010882e-020
-spin=0.000000
-potential=0.000000
-[#TYPE:CELL_DOT]
-[#TYPE:QCADCell]
-[TYPE:QCADCell]
-[TYPE:QCADDesignObject]
-x=740.000000
-y=200.000000
-bSelected=FALSE
 clr.red=65535
 clr.green=65535
 clr.blue=65535
 bounding_box.xWorld=731.000000
-bounding_box.yWorld=191.000000
+bounding_box.yWorld=151.000000
 bounding_box.cxWorld=18.000000
 bounding_box.cyWorld=18.000000
 [#TYPE:QCADDesignObject]
@@ -8947,9 +8682,115 @@ cell_function=QCAD_CELL_NORMAL
 number_of_dots=4
 [TYPE:CELL_DOT]
 x=744.500000
+y=155.500000
+diameter=5.000000
+charge=1.591694e-019
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=744.500000
+y=164.500000
+diameter=5.000000
+charge=1.048267e-021
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=735.500000
+y=164.500000
+diameter=5.000000
+charge=1.591694e-019
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=735.500000
+y=155.500000
+diameter=5.000000
+charge=1.048267e-021
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[#TYPE:QCADCell]
+[TYPE:QCADCell]
+[TYPE:QCADDesignObject]
+x=740.000000
+y=180.000000
+bSelected=FALSE
+clr.red=0
+clr.green=65535
+clr.blue=0
+bounding_box.xWorld=731.000000
+bounding_box.yWorld=171.000000
+bounding_box.cxWorld=18.000000
+bounding_box.cyWorld=18.000000
+[#TYPE:QCADDesignObject]
+cell_options.cxCell=18.000000
+cell_options.cyCell=18.000000
+cell_options.dot_diameter=5.000000
+cell_options.clock=0
+cell_options.mode=QCAD_CELL_MODE_NORMAL
+cell_function=QCAD_CELL_NORMAL
+number_of_dots=4
+[TYPE:CELL_DOT]
+x=744.500000
+y=175.500000
+diameter=5.000000
+charge=1.577295e-019
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=744.500000
+y=184.500000
+diameter=5.000000
+charge=2.488147e-021
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=735.500000
+y=184.500000
+diameter=5.000000
+charge=1.577295e-019
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=735.500000
+y=175.500000
+diameter=5.000000
+charge=2.488147e-021
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[#TYPE:QCADCell]
+[TYPE:QCADCell]
+[TYPE:QCADDesignObject]
+x=740.000000
+y=200.000000
+bSelected=FALSE
+clr.red=65535
+clr.green=0
+clr.blue=65535
+bounding_box.xWorld=731.000000
+bounding_box.yWorld=191.000000
+bounding_box.cxWorld=18.000000
+bounding_box.cyWorld=18.000000
+[#TYPE:QCADDesignObject]
+cell_options.cxCell=18.000000
+cell_options.cyCell=18.000000
+cell_options.dot_diameter=5.000000
+cell_options.clock=1
+cell_options.mode=QCAD_CELL_MODE_NORMAL
+cell_function=QCAD_CELL_NORMAL
+number_of_dots=4
+[TYPE:CELL_DOT]
+x=744.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.886195e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8957,7 +8798,7 @@ potential=0.000000
 x=744.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.135570e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8965,7 +8806,7 @@ potential=0.000000
 x=735.500000
 y=204.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=9.886195e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8973,7 +8814,7 @@ potential=0.000000
 x=735.500000
 y=195.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=6.135570e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -8985,7 +8826,7 @@ y=220.000000
 bSelected=FALSE
 clr.red=0
 clr.green=65535
-clr.blue=0
+clr.blue=65535
 bounding_box.xWorld=731.000000
 bounding_box.yWorld=211.000000
 bounding_box.cxWorld=18.000000
@@ -8994,7 +8835,7 @@ bounding_box.cyWorld=18.000000
 cell_options.cxCell=18.000000
 cell_options.cyCell=18.000000
 cell_options.dot_diameter=5.000000
-cell_options.clock=0
+cell_options.clock=2
 cell_options.mode=QCAD_CELL_MODE_NORMAL
 cell_function=QCAD_CELL_NORMAL
 number_of_dots=4
@@ -9002,7 +8843,7 @@ number_of_dots=4
 x=744.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.274283e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9010,7 +8851,7 @@ potential=0.000000
 x=744.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.747482e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9018,7 +8859,7 @@ potential=0.000000
 x=735.500000
 y=224.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.274283e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9026,7 +8867,7 @@ potential=0.000000
 x=735.500000
 y=215.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.747482e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9036,9 +8877,9 @@ potential=0.000000
 x=740.000000
 y=240.000000
 bSelected=FALSE
-clr.red=0
+clr.red=65535
 clr.green=65535
-clr.blue=0
+clr.blue=65535
 bounding_box.xWorld=731.000000
 bounding_box.yWorld=231.000000
 bounding_box.cxWorld=18.000000
@@ -9047,7 +8888,7 @@ bounding_box.cyWorld=18.000000
 cell_options.cxCell=18.000000
 cell_options.cyCell=18.000000
 cell_options.dot_diameter=5.000000
-cell_options.clock=0
+cell_options.clock=3
 cell_options.mode=QCAD_CELL_MODE_NORMAL
 cell_function=QCAD_CELL_NORMAL
 number_of_dots=4
@@ -9055,7 +8896,7 @@ number_of_dots=4
 x=744.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.053832e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9063,7 +8904,7 @@ potential=0.000000
 x=744.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.967932e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9071,7 +8912,7 @@ potential=0.000000
 x=735.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.053832e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9079,7 +8920,7 @@ potential=0.000000
 x=735.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=7.967932e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9178,7 +9019,7 @@ number_of_dots=4
 x=364.500000
 y=235.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9194,7 +9035,7 @@ potential=0.000000
 x=355.500000
 y=244.500000
 diameter=5.000000
-charge=8.010882e-020
+charge=8.010883e-020
 spin=0.000000
 potential=0.000000
 [#TYPE:CELL_DOT]
@@ -9223,6 +9064,165 @@ bounding_box.cyWorld=22.000000
 [#TYPE:QCADStretchyObject]
 psz=xor_1_in
 [#TYPE:QCADLabel]
+[#TYPE:QCADCell]
+[TYPE:QCADCell]
+[TYPE:QCADDesignObject]
+x=1000.000000
+y=320.000000
+bSelected=FALSE
+clr.red=0
+clr.green=65535
+clr.blue=0
+bounding_box.xWorld=991.000000
+bounding_box.yWorld=311.000000
+bounding_box.cxWorld=18.000000
+bounding_box.cyWorld=18.000000
+[#TYPE:QCADDesignObject]
+cell_options.cxCell=18.000000
+cell_options.cyCell=18.000000
+cell_options.dot_diameter=5.000000
+cell_options.clock=0
+cell_options.mode=QCAD_CELL_MODE_NORMAL
+cell_function=QCAD_CELL_NORMAL
+number_of_dots=4
+[TYPE:CELL_DOT]
+x=1004.500000
+y=315.500000
+diameter=5.000000
+charge=8.005395e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1004.500000
+y=324.500000
+diameter=5.000000
+charge=8.016370e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=995.500000
+y=324.500000
+diameter=5.000000
+charge=8.005395e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=995.500000
+y=315.500000
+diameter=5.000000
+charge=8.016370e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[#TYPE:QCADCell]
+[TYPE:QCADCell]
+[TYPE:QCADDesignObject]
+x=1020.000000
+y=320.000000
+bSelected=FALSE
+clr.red=0
+clr.green=65535
+clr.blue=0
+bounding_box.xWorld=1011.000000
+bounding_box.yWorld=311.000000
+bounding_box.cxWorld=18.000000
+bounding_box.cyWorld=18.000000
+[#TYPE:QCADDesignObject]
+cell_options.cxCell=18.000000
+cell_options.cyCell=18.000000
+cell_options.dot_diameter=5.000000
+cell_options.clock=0
+cell_options.mode=QCAD_CELL_MODE_NORMAL
+cell_function=QCAD_CELL_NORMAL
+number_of_dots=4
+[TYPE:CELL_DOT]
+x=1024.500000
+y=315.500000
+diameter=5.000000
+charge=8.009620e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1024.500000
+y=324.500000
+diameter=5.000000
+charge=8.012144e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1015.500000
+y=324.500000
+diameter=5.000000
+charge=8.009620e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1015.500000
+y=315.500000
+diameter=5.000000
+charge=8.012144e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[#TYPE:QCADCell]
+[TYPE:QCADCell]
+[TYPE:QCADDesignObject]
+x=1040.000000
+y=320.000000
+bSelected=FALSE
+clr.red=0
+clr.green=65535
+clr.blue=0
+bounding_box.xWorld=1031.000000
+bounding_box.yWorld=311.000000
+bounding_box.cxWorld=18.000000
+bounding_box.cyWorld=18.000000
+[#TYPE:QCADDesignObject]
+cell_options.cxCell=18.000000
+cell_options.cyCell=18.000000
+cell_options.dot_diameter=5.000000
+cell_options.clock=0
+cell_options.mode=QCAD_CELL_MODE_NORMAL
+cell_function=QCAD_CELL_NORMAL
+number_of_dots=4
+[TYPE:CELL_DOT]
+x=1044.500000
+y=315.500000
+diameter=5.000000
+charge=8.007523e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1044.500000
+y=324.500000
+diameter=5.000000
+charge=8.014242e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1035.500000
+y=324.500000
+diameter=5.000000
+charge=8.007523e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
+[TYPE:CELL_DOT]
+x=1035.500000
+y=315.500000
+diameter=5.000000
+charge=8.014242e-020
+spin=0.000000
+potential=0.000000
+[#TYPE:CELL_DOT]
 [#TYPE:QCADCell]
 [#TYPE:QCADLayer]
 [TYPE:BUS_LAYOUT]
