@@ -2,6 +2,9 @@ import yaml
 import math
 import numpy as np
 from random import randint
+import matplotlib
+import matplotlib.pylab as plt
+import numpy.matlib
 
 # ali rob predstavlja konec prostora ali so meje neskoncne?
 # Brez sinhronizacijske molekule: periodic_bounds = 1
@@ -86,10 +89,14 @@ step = 0
 
 A_full[step,:] = filter(lambda i: i > 0, A.flatten('F'))
 
-###todo -> napisi splosno velikost 
-i = np.argsort([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
-j = np.argsort([9, 0, 1, 2, 3, 4, 5, 6, 7, 8])
+
+a = np.arange(1, size, dtype=int)
+b = np.arange(0, size-1, dtype=int)
+i = np.argsort(np.append(a, 0))
+j = np.argsort(np.append(size-1, b))
 while t <= t_end:
+	
+	## todo -> kar je v else je treba pretipkat v python
 	#if (periodic_bounds):
 	S_e_xx = D1 * (S_e[:, i] + S_e[:, j] - 2 * S_e)/h2 # D1 * ([S_e(:,end),S_e(:,1:end-1)] + [S_e(:,2:end),S_e(:,1)] -2*S_e)/h2 
 	S_e_yy = D1 * (S_e[i, :] + S_e[j, :] - 2 * S_e)/h2 # D1 * ([S_e(end,:);S_e(1:end-1,:)] + [S_e(2:end,:);S_e(1,:)] -2*S_e)/h2  
@@ -97,7 +104,7 @@ while t <= t_end:
 		#todo
 		#SS_e = [[0, S_e[2,:], 0][S_e[:,2], S_e, S_e[:,len(S_e)-1]][0, S_e[len(S_e)-1,:], 0]]
 		#S_e_xx= D1 * (SS_e(2:end-1,1:end-2) + SS_e(2:end-1,3:end) -2*S_e)/h2; 
-        #S_e_yy= D1 * (SS_e(1:end-2,2:end-1) + SS_e(3:end,2:end-1) -2*S_e)/h2; 
+		#S_e_yy= D1 * (SS_e(1:end-2,2:end-1) + SS_e(3:end,2:end-1) -2*S_e)/h2; 
 
 	D2S_e = S_e_xx + S_e_yy
 	# Calculate dx/dt
@@ -136,16 +143,25 @@ while t <= t_end:
 	step = step + 1
 	
 	A_full[step,:] = filter(lambda i: i > 0, A.flatten('F'))
+
     
     ####TODO
     #A_series(step) = A(first_idx)
     #S_e_series(step) = S_e(first_idx)
     #A_full(step,:) = A(cell_idx)
     
+# T = 0:dt:t_end-dt
+T = np.arange(0, t_end-dt, dt, dtype=int)
 
+#TT = T.'
+# TMat = repmat(TT,1,n_cells);
+TMat = np.matlib.repmat(T, 1, n_cells)
+y = np.arange(0, n_cells, dtype=int)
+# yMat = repmat(y, numel(TT), 1); %//For plot3
+yMat = np.matlib.repmat(y, len(T), 1)
 
-
-
-
+fig, ax = plt.subplots()
+ax.plot(A_full)
+plt.show()
 
 
