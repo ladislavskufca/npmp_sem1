@@ -2,9 +2,9 @@ import yaml
 import math
 import numpy as np
 from random import randint
-import matplotlib
 import matplotlib.pylab as plt
 import numpy.matlib
+import time
 
 # ali rob predstavlja konec prostora ali so meje neskoncne?
 # Brez sinhronizacijske molekule: periodic_bounds = 1
@@ -23,7 +23,8 @@ borderfixed = 0
 with open("params.yaml", 'r') as stream:
     p = yaml.load(stream)
 
-
+# merjenje casa
+timeMeasure = time.time()
 
 # nalaganje vrednosti parametrov
 #p = load('params.mat')
@@ -149,7 +150,11 @@ while t <= t_end:
     #A_series(step) = A(first_idx)
     #S_e_series(step) = S_e(first_idx)
     #A_full(step,:) = A(cell_idx)
-    
+
+# izpis casa
+print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
+
+
 # T = 0:dt:t_end-dt
 T = np.arange(0, t_end-dt, dt, dtype=int)
 
