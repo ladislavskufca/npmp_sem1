@@ -6,6 +6,10 @@ import matplotlib.pylab as plt
 import numpy.matlib
 import time
 
+# ----------------
+# Prepis kode Matlab kode repressilator_S_PDE.m, avtorja doc. dr. Miha Moskon - https://fri.uni-lj.si/sl/o-fakulteti/osebje/miha-moskon
+# ----------------
+
 # ali rob predstavlja konec prostora ali so meje neskoncne?
 # Brez sinhronizacijske molekule: periodic_bounds = 1
 # Z difuzijo sinhronizacijske molekule: periodic_bounds = 0 
