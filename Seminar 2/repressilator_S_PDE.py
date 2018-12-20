@@ -27,9 +27,6 @@ borderfixed = 0
 with open("params.yaml", 'r') as stream:
     p = yaml.load(stream)
 
-# merjenje casa
-timeMeasure = time.time()
-
 # nalaganje vrednosti parametrov
 #p = load('params.mat')
 alpha = p['alpha']
@@ -92,13 +89,17 @@ t = 0
 k = 0
 step = 0
 
-A_full[step,:] = filter(lambda i: i > 0, A.flatten('F'))
+A_full[step,:] = A[A>0]
 
 
 a = np.arange(1, size, dtype=int)
 b = np.arange(0, size-1, dtype=int)
 i = np.argsort(np.append(a, 0))
 j = np.argsort(np.append(size-1, b))
+
+# merjenje casa
+timeMeasure = time.time()
+
 while t <= t_end:
 	
 	## todo -> kar je v else je treba pretipkat v python
@@ -147,7 +148,7 @@ while t <= t_end:
 	t = t + dt
 	step = step + 1
 	
-	A_full[step,:] = filter(lambda i: i > 0, A.flatten('F'))
+	A_full[step,:] = A[A>0]
 
     
     ####TODO
