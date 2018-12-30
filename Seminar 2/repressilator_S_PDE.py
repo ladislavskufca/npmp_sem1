@@ -5,7 +5,9 @@ from random import randint
 import matplotlib.pylab as plt
 import numpy.matlib
 import time
+from scipy.integrate import ode
 
+	
 # ----------------
 # Prepis Matlab kode repressilator_S_PDE.m, avtorja doc. dr. Miha Moskon - https://fri.uni-lj.si/sl/o-fakulteti/osebje/miha-moskon
 # ----------------
@@ -51,9 +53,9 @@ t_end = p['t_end']
 dt = p['dt']
 h = p['h']
 h2 = h*h
-
+	
 S_e = np.random.rand(size, size)
-S_i = np.zeros((size, size), dtype=int)
+S_i = np.zeros((size, size), dtype=float)
 
 #CELLS = np.random.randint(2, size=(size, size))
 CELLS = np.zeros((size, size), dtype=int)
@@ -73,23 +75,31 @@ mA = CELLS * np.random.rand(size, size) * 100
 mB = CELLS * np.random.rand(size, size) * 100
 mC = CELLS * np.random.rand(size, size) * 100
 
-A_series = np.zeros(int(t_end/dt), dtype=int)
-S_e_series = np.zeros(int(t_end/dt), dtype=int)
-A_full = np.zeros((int(t_end/dt)+1, n_cells), dtype=int)
 
-####TODO
-#A_series[1] = A(first_idx)
-#S_e_series(1) = S_e(first_idx)
-#A_full[1,:] = A(cell_idx)
+def model(var, t):
+	dmA = CELLS * (alpha/(1 + np.power((C/Kd), n)) + alpha0 - delta_m * mA)
+	dmB = CELLS * (alpha/(1 + np.power((A/Kd), n)) + alpha0 - delta_m * mB)
+	dmC = CELLS * (alpha/(1 + np.power((B/Kd), n)) + alpha0 - delta_m * mC + (kappa * S_i)/(1 + S_i))
 
-
-
+	dA = CELLS * (beta * mA - delta_p * A)
+	dB = CELLS * (beta * mB - delta_p * B)
+	dC = CELLS * (beta * mC - delta_p * C)
+	   
+	dS_i = CELLS * (- kS0 * S_i + kS1 * A - eta * (S_i - S_e))
+	dS_e = - kSe * S_e + CELLS * (eta * (S_i - S_e))
+	
+	return [dmA, dmB, dmC, dA, dB, dC, dS_i, dS_e]
+	
+	
+#A_series = np.zeros(int(t_end/dt), dtype=float)
+#S_e_series = np.zeros(int(t_end/dt), dtype=float)
+A_full = np.zeros((int(t_end/dt)+1, size*size), dtype=float)
 
 t = 0
 k = 0
 step = 0
 
-A_full[step,:] = A[A>0]
+A_full[step, :] = A.flatten('F') #[A>0]
 
 
 a = np.arange(1, size, dtype=int)
@@ -102,19 +112,29 @@ timeMeasure = time.time()
 
 while t <= t_end:
 	
-	## todo -> kar je v else je treba pretipkat v python
-	#if (periodic_bounds):
-	S_e_xx = D1 * (S_e[:, i] + S_e[:, j] - 2 * S_e)/h2 # D1 * ([S_e(:,end),S_e(:,1:end-1)] + [S_e(:,2:end),S_e(:,1)] -2*S_e)/h2 
-	S_e_yy = D1 * (S_e[i, :] + S_e[j, :] - 2 * S_e)/h2 # D1 * ([S_e(end,:);S_e(1:end-1,:)] + [S_e(2:end,:);S_e(1,:)] -2*S_e)/h2  
-	#else:
-		#todo
-		#SS_e = [[0, S_e[2,:], 0][S_e[:,2], S_e, S_e[:,len(S_e)-1]][0, S_e[len(S_e)-1,:], 0]]
-		#S_e_xx= D1 * (SS_e(2:end-1,1:end-2) + SS_e(2:end-1,3:end) -2*S_e)/h2; 
-		#S_e_yy= D1 * (SS_e(1:end-2,2:end-1) + SS_e(3:end,2:end-1) -2*S_e)/h2; 
+	S_e_xx = []
+	S_e_yy = []
+	if (periodic_bounds):
+		S_e_xx = D1 * (S_e[:, i] + S_e[:, j] - 2 * S_e)/h2 # D1 * ([S_e(:,end),S_e(:,1:end-1)] + [S_e(:,2:end),S_e(:,1)] -2*S_e)/h2 
+		S_e_yy = D1 * (S_e[i, :] + S_e[j, :] - 2 * S_e)/h2 # D1 * ([S_e(end,:);S_e(1:end-1,:)] + [S_e(2:end,:);S_e(1,:)] -2*S_e)/h2  
+	else:
+		X = np.zeros((size+2, size+2), dtype=float)
+		X[0,1:size+1] = S_e[1,:]
+		X[size+1,1:size+1] = S_e[len(S_e)-2,:]
+		X[1:size+1, 0] = S_e[:,1]
+		X[1:size+1, size+1] = S_e[:, len(S_e)-2]
+		X[1:size+1,1:size+1] = S_e
 
+		S_e_xx = D1 * (X[1:len(X) - 1, 0:len(X) - 2] + X[1:len(X) - 1, 2:len(X)] - 2*S_e)/h2 
+		S_e_yy = D1 * (X[0:len(X) - 2, 1:len(X) - 1] + X[2:len(X), 1:len(X) - 1] - 2*S_e)/h2 
+        
 	D2S_e = S_e_xx + S_e_yy
+
 	# Calculate dx/dt
     #[dmA, dmB, dmC, dA, dB, dC, dS_i, dS_e] = repressilator_S_ODE(CELLS, mA, mB, mC, A, B, C, S_i, S_e, alpha, alpha0, Kd, beta, delta_m, delta_p, n, kS0, kS1, kSe, kappa, eta)
+	#time = np.linspace(0.0,100.0,1000)
+	#vec = odeint(model, A.flatten('F'), time)
+	
 	dmA = CELLS * (alpha/(1 + np.power((C/Kd), n)) + alpha0 - delta_m * mA)
 	dmB = CELLS * (alpha/(1 + np.power((A/Kd), n)) + alpha0 - delta_m * mB)
 	dmC = CELLS * (alpha/(1 + np.power((B/Kd), n)) + alpha0 - delta_m * mC + (kappa * S_i)/(1 + S_i))
@@ -127,15 +147,14 @@ while t <= t_end:
 	dS_e = - kSe * S_e + CELLS * (eta * (S_i - S_e))
 		
 	dS_e = dS_e + D2S_e
-    
-    #if (borderfixed == 1)
-    #    % leave border as distrotion centers
-    #    width = length(dS_e)
-    #    dS_e(1:width,[1 width])=0
-    #    dS_e([1 width],1:width)=0
-    #    
-    #end
-        
+	
+	if (borderfixed):
+		# leave border as distrotion centers
+		dS_e[0:size,0] = 0
+		dS_e[0:size,size-1] = 0
+		dS_e[0, 0:size] = 0
+		dS_e[size-1, 0:size] = 0
+		         
 	mA = mA + dt * dmA
 	mB = mB + dt * dmB
 	mC = mC + dt * dmC
@@ -148,13 +167,7 @@ while t <= t_end:
 	t = t + dt
 	step = step + 1
 	
-	A_full[step,:] = A[A>0]
-
-    
-    ####TODO
-    #A_series(step) = A(first_idx)
-    #S_e_series(step) = S_e(first_idx)
-    #A_full(step,:) = A(cell_idx)
+	A_full[step,:] = A.flatten('F') #[A>0]
 
 # izpis casa
 print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
