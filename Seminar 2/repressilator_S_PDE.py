@@ -6,7 +6,58 @@ import matplotlib.pylab as plt
 import numpy.matlib
 import time
 from scipy.integrate import ode
+from scipy.signal import find_peaks
 
+
+# INPUTS:
+# sig ... 1D signal 
+# T ... vector of time steps
+# threshold ... minimal oscillation amplitudes to threat the behaviour as oscillatory
+# plot_on ... 0: no plotting, 1: plotting
+#
+# OUTPUTS:
+# oscillatory ... 0: NO, 1: YES
+# frequency 
+# amplitude 
+# spikiness  
+def measureOsc3(sig, T, threshold):
+	damped = 0
+	
+	# params
+    #minDist = 1/dt;        
+	
+	#[peaks,locs,~,p] = findpeaks(sig,'MinPeakProminence',threshold);
+	peaks, _ = find_peaks(sig, prominence=threshold)
+	#plt.plot(sig)	
+	#plt.plot(peaks, sig[peaks], "x")
+	#plt.show()
+	if peaks.any():
+		if (len(peaks) >= 2):
+			threshold2 = 0.1 * sig[int(math.ceil(len(peaks)/2))]
+			peaks, _ = find_peaks(sig, prominence=threshold2)
+			if (peaks.any() or len(peaks) < 2):
+				damped = 1
+
+	amplitude = 0
+	period = 0
+	oscillatory = 0
+	frequency = 0
+		
+	if peaks.any():
+		if len(peaks) >= 2:
+			amplitude = sig[peaks[len(peaks)-2]] - min(sig[peaks[len(peaks)-2]:peaks[len(peaks)-1]])
+			period = T[peaks[len(peaks)-1]]-T[peaks[len(peaks)-1]]
+			if (T[peaks[len(peaks)-1]] < T[len(T)-1] - 1.5*period): #if oscillations are not damped the last peak should lie in the interval t_end - period (1.5*period - last peak can be misdetected)
+				amplitude = 0
+				period = 0
+				damped = 1
+				print "someting"
+			else:         
+				frequency = 1/period
+				oscillatory = 1		
+				
+	
+	return [oscillatory, frequency, period, amplitude, damped]
 	
 # ----------------
 # Prepis Matlab kode repressilator_S_PDE.m, avtorja doc. dr. Miha Moskon - https://fri.uni-lj.si/sl/o-fakulteti/osebje/miha-moskon
@@ -172,19 +223,21 @@ while t <= t_end:
 # izpis casa
 print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
 
-
 # T = 0:dt:t_end-dt
 T = np.arange(0, t_end-dt, dt, dtype=int)
+
+result = measureOsc3(A_full[1000:10000,size*size-20], T[1000:10000], 0.1)
+print result
 
 #TT = T.'
 # TMat = repmat(TT,1,n_cells);
 TMat = np.matlib.repmat(T, 1, n_cells)
 y = np.arange(0, n_cells, dtype=int)
-# yMat = repmat(y, numel(TT), 1); %//For plot3
+# yMat = repmat(y, numel(TT), 1); #//For plot3
 yMat = np.matlib.repmat(y, len(T), 1)
 
 fig, ax = plt.subplots()
-ax.plot(A_full)
+ax.plot(A_full[1000:10000,size*size-1])
 plt.show()
 
 
