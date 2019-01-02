@@ -1,7 +1,7 @@
 import yaml
 import math
 import numpy as np
-from random import randint
+from random import randint, seed
 import matplotlib.pylab as plt
 import numpy.matlib
 import time
@@ -88,6 +88,10 @@ class Repressilator_S_PDE:
         self.h2 = h * h
 
     def run(self):
+        # set random seed
+        np.random.seed(RANDOM_SEED)
+        seed(RANDOM_SEED)
+
         S_e = np.random.rand(self.size, self.size)
         S_i = np.zeros((self.size, self.size), dtype=float)
 
@@ -209,7 +213,7 @@ class Repressilator_S_PDE:
         yMat = np.matlib.repmat(y, len(T), 1)
 
         fig, ax = plt.subplots()
-        ax.plot(A_full[self.t_start:self.t_end, self.size * self.size - 1])
+        ax.plot(A_full[self.t_start:self.t_end, self.size * self.size - 20])
         plt.show()
         # ------------------------------------------------------------------------------------------------------------ #
 
@@ -218,5 +222,5 @@ if __name__ == "__main__":
     r = Repressilator_S_PDE()
     r.load_params()
 
-    for i in range(0, 5):
+    for i in range(0, 3):
         r.run()
