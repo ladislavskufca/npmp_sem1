@@ -12,9 +12,10 @@ import npmp_utils as my_utils
 
 # Set random seed
 RANDOM_SEED = 1234
-START_TIME = 1000
-ITERATIONS = 1
-
+START_TIME = 7000
+ITERATIONS = 5
+SHOW_GRAPH = False
+DEBUG = False
 
 class Repressilator_S_PDE:
     def __init__(self):
@@ -57,9 +58,9 @@ class Repressilator_S_PDE:
         self.t_end = 10000
         self.t_start = START_TIME
 
-    def load_params(self):
+    def load_params(self, file_name="params.yaml"):
         # Read YAML file
-        with open("params.yaml", 'r') as stream:
+        with open(file_name, 'r') as stream:
             p = yaml.load(stream)
 
         # nalaganje vrednosti parametrov
@@ -87,6 +88,76 @@ class Repressilator_S_PDE:
         self.dt = p['dt']
         h = p['h']
         self.h2 = h * h
+
+    def set_params(self, **kwargs):
+        if 'alpha' in kwargs:
+            self.alpha = kwargs['alpha']
+            self.alpha0 = 0.001 * self.alpha
+
+        if 'Kd' in kwargs:
+            self.Kd = kwargs['Kd']
+
+        if 'delta_m' in kwargs:
+            self.delta_m = kwargs['delta_m']
+
+        if 'delta_p' in kwargs:
+            self.delta_p = kwargs['delta_p']
+
+        if 'n' in kwargs:
+            self.n = kwargs['n']
+
+        if 'beta' in kwargs:
+            self.beta = kwargs['beta']
+
+        if 'kappa' in kwargs:
+            self.kappa = kwargs['kappa']
+
+        if 'kS0' in kwargs:
+            self.kS0 = kwargs['kS0']
+
+        if 'kS1' in kwargs:
+            self.kS1 = kwargs['kS1']
+
+        if 'kSe' in kwargs:
+            self.kSe = kwargs['kSe']
+
+        if 'D1' in kwargs:
+            self.D1 = kwargs['D1']
+
+        if 'eta' in kwargs:
+            self.eta = kwargs['eta']
+
+        if 'size' in kwargs:
+            self.size = kwargs['size']
+            self.n_cells = int(math.ceil(self.density * math.pow(self.size, 2)))
+
+        if 'density' in kwargs:
+            self.density = kwargs['density']
+            self.n_cells = int(math.ceil(self.density * math.pow(self.size, 2)))
+
+        if 't_end' in kwargs:
+            self.t_end = kwargs['t_end']
+
+        if 't_start' in kwargs:
+            self.t_start = kwargs['t_start']
+
+        if 'dt' in kwargs:
+            self.dt = kwargs['dt']
+
+        if 'h' in kwargs:
+            self.h2 = kwargs['h'] * kwargs['h']
+
+    def draw_graphs(self, T, A_full):
+        # TT = T.'
+        # TMat = repmat(TT,1,n_cells);
+        TMat = np.matlib.repmat(T, 1, self.n_cells)
+        y = np.arange(0, self.n_cells, dtype=int)
+        # yMat = repmat(y, numel(TT), 1); #//For plot3
+        yMat = np.matlib.repmat(y, len(T), 1)
+
+        fig, ax = plt.subplots()
+        ax.plot(A_full[self.t_start:self.t_end, self.size * self.size - 20])
+        plt.show()
 
     def run(self):
         # set random seed
@@ -118,7 +189,9 @@ class Repressilator_S_PDE:
         # S_e_series = np.zeros(int(t_end/dt), dtype=float)
         A_full = np.zeros((int(self.t_end / self.dt) + 1, self.size * self.size), dtype=float)
 
-        t = 0
+        # TODO
+        # t = 0
+        t = self.t_start
         k = 0
         step = 0
 
@@ -193,7 +266,8 @@ class Repressilator_S_PDE:
             A_full[step, :] = A.flatten('F')  # [A>0]
 
         # izpis casa
-        print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
+        if DEBUG:
+            print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
 
         # T = 0:dt:t_end-dt
         T = np.arange(0, self.t_end - self.dt, self.dt, dtype=int)
@@ -201,27 +275,28 @@ class Repressilator_S_PDE:
         # ------------------------------------------------------------------------------------------------------------ #
         # DOES IT OSCILLATE? from start time to end time
         result = my_utils.measure_osc(A_full[self.t_start:self.t_end, self.size * self.size - 20], T[self.t_start:self.t_end], 0.1)
-        print(result)
+        if DEBUG:
+            print(result)
 
         # ------------------------------------------------------------------------------------------------------------ #
         # DRAW GRAPH
-
-        # TT = T.'
-        # TMat = repmat(TT,1,n_cells);
-        TMat = np.matlib.repmat(T, 1, self.n_cells)
-        y = np.arange(0, self.n_cells, dtype=int)
-        # yMat = repmat(y, numel(TT), 1); #//For plot3
-        yMat = np.matlib.repmat(y, len(T), 1)
-
-        fig, ax = plt.subplots()
-        ax.plot(A_full[self.t_start:self.t_end, self.size * self.size - 20])
-        plt.show()
+        if SHOW_GRAPH:
+            self.draw_graphs(T, A_full)
         # ------------------------------------------------------------------------------------------------------------ #
+        return result
 
 
 if __name__ == "__main__":
+    # show graphs
+    SHOW_GRAPH = True
+    DEBUG = True
+    ITERATIONS = 1
+
+    # init repressilator model
     r = Repressilator_S_PDE()
+    # load calculation parameters
     r.load_params()
 
+    # run simulation
     for i in range(0, ITERATIONS):
         r.run()
