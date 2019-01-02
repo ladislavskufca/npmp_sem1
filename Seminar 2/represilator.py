@@ -13,6 +13,7 @@ import npmp_utils as my_utils
 # Set random seed
 RANDOM_SEED = 1234
 START_TIME = 1000
+ITERATIONS = 1
 
 
 class Repressilator_S_PDE:
@@ -222,5 +223,5 @@ if __name__ == "__main__":
     r = Repressilator_S_PDE()
     r.load_params()
 
-    for i in range(0, 3):
+    for i in range(0, ITERATIONS):
         r.run()
