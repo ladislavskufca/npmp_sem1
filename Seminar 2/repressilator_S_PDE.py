@@ -240,4 +240,3 @@ fig, ax = plt.subplots()
 ax.plot(A_full[1000:10000,size*size-1])
 plt.show()
 
-
