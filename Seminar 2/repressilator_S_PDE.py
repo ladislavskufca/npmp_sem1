@@ -51,7 +51,7 @@ def measureOsc3(sig, T, threshold):
 				amplitude = 0
 				period = 0
 				damped = 1
-				print "someting"
+				print("someting")
 			else:         
 				frequency = 1/period
 				oscillatory = 1		
@@ -227,7 +227,7 @@ print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
 T = np.arange(0, t_end-dt, dt, dtype=int)
 
 result = measureOsc3(A_full[1000:10000,size*size-20], T[1000:10000], 0.1)
-print result
+print(result)
 
 #TT = T.'
 # TMat = repmat(TT,1,n_cells);
