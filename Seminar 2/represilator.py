@@ -288,7 +288,7 @@ class Repressilator_S_PDE:
             print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
 
         # T = 0:dt:t_end-dt
-        T = np.arange(0, self.t_end - self.dt, self.dt, dtype=int)
+        T = np.arange(0, self.t_end - self.dt, self.dt, dtype=float)
 
         # ------------------------------------------------------------------------------------------------------------ #
         # DOES IT OSCILLATE? from start time to end time
