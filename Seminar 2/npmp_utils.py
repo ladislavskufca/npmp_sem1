@@ -39,7 +39,7 @@ def measure_osc(sig, T, threshold):
     if peaks.any():
         if len(peaks) >= 2:
             amplitude = sig[peaks[len(peaks) - 2]] - min(sig[peaks[len(peaks) - 2]:peaks[len(peaks) - 1]])
-            period = T[peaks[len(peaks) - 1]] - T[peaks[len(peaks) - 1]]
+            period = T[peaks[len(peaks) - 1]] - T[peaks[len(peaks) - 2]]
             """
             if oscillations are not damped the last peak should lie in the interval
             t_end - period (1.5*period - last peak can be misdetected)
@@ -48,13 +48,13 @@ def measure_osc(sig, T, threshold):
                 amplitude = 0
                 period = 0
                 damped = 1
-                print("someting")
             else:
                 frequency = 1 / period
                 oscillatory = 1
 
+    # print([oscillatory, frequency, period, amplitude, damped])
     return [oscillatory, frequency, period, amplitude, damped]
 
 
 if __name__ == "__main__":
-    print("main")
+    print("npmp_utils")

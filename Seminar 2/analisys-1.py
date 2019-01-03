@@ -74,6 +74,7 @@ def analyse_diffusion_rate(size=10, number_of_examples=150):
             y_amp.append(d)
 
         example_num += 1
+        del rep
 
     # # draw graph
     # fig = plt.figure()
@@ -103,7 +104,7 @@ def analyse_diffusion_rate(size=10, number_of_examples=150):
 
 def analyse_density(size=10, number_of_examples=150):
     """
-    Vpliv hitrosti difuzije na oscilacije pri podani velikosti prostora
+    Vpliv gostote celic na oscilacije pri podani velikosti prostora
     :return:
     """
     example_num = 0
@@ -130,6 +131,7 @@ def analyse_density(size=10, number_of_examples=150):
             y_amp.append(density)
 
         example_num += 1
+        del rep
 
     plt.subplot(2, 1, 1)
     plt.title('Vpliv gostote celic na amplitudo v prostoru %dx%d' % (size, size))
@@ -147,5 +149,13 @@ def analyse_density(size=10, number_of_examples=150):
 
 if __name__ == "__main__":
     # analyse_diffusion_rate_and_density(15)
-    # analyse_diffusion_rate(number_of_examples=20)
-    analyse_density(number_of_examples=20)
+
+    # Vpliv hitrosti difuzije na oscilacije pri podani velikosti prostora
+    analyse_diffusion_rate(number_of_examples=20, size=10)
+    analyse_diffusion_rate(number_of_examples=20, size=15)
+    analyse_diffusion_rate(number_of_examples=20, size=20)
+
+    # Vpliv gostote celic na oscilacije pri podani velikosti prostora
+    analyse_density(number_of_examples=20, size=10)
+    analyse_density(number_of_examples=20, size=15)
+    analyse_density(number_of_examples=20, size=20)
