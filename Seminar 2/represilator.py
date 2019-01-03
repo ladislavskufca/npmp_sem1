@@ -1,7 +1,7 @@
 import yaml
 import math
 import numpy as np
-from random import randint, seed
+from random import randint, seed, choice
 import matplotlib.pylab as plt
 import numpy.matlib
 import time
@@ -13,9 +13,9 @@ import npmp_utils as my_utils
 # Set random seed
 RANDOM_SEED = 1234
 START_TIME = 7000
-ITERATIONS = 5
 SHOW_GRAPH = False
 DEBUG = False
+
 
 class Repressilator_S_PDE:
     def __init__(self):
@@ -59,6 +59,10 @@ class Repressilator_S_PDE:
         self.t_start = START_TIME
 
     def load_params(self, file_name="params.yaml"):
+        """
+        Load parameters from yaml file
+        :param file_name: Yaml file name with parameters
+        """
         # Read YAML file
         with open(file_name, 'r') as stream:
             p = yaml.load(stream)
@@ -90,6 +94,9 @@ class Repressilator_S_PDE:
         self.h2 = h * h
 
     def set_params(self, **kwargs):
+        """
+        set specific parameter to new value
+        """
         if 'alpha' in kwargs:
             self.alpha = kwargs['alpha']
             self.alpha0 = 0.001 * self.alpha
@@ -147,7 +154,13 @@ class Repressilator_S_PDE:
         if 'h' in kwargs:
             self.h2 = kwargs['h'] * kwargs['h']
 
-    def draw_graphs(self, T, A_full):
+    def draw_graphs(self, T, A_full, index):
+        """
+        Draws graph
+        :param T:
+        :param A_full:
+        :param index:
+        """
         # TT = T.'
         # TMat = repmat(TT,1,n_cells);
         TMat = np.matlib.repmat(T, 1, self.n_cells)
@@ -156,10 +169,14 @@ class Repressilator_S_PDE:
         yMat = np.matlib.repmat(y, len(T), 1)
 
         fig, ax = plt.subplots()
-        ax.plot(A_full[self.t_start:self.t_end, self.size * self.size - 20])
+        ax.plot(A_full[self.t_start:self.t_end, index])
         plt.show()
 
     def run(self):
+        """
+        Run model simulation
+        :return: array with values for [oscillatory, frequency, period, amplitude, damped]
+        """
         # set random seed
         np.random.seed(RANDOM_SEED)
         seed(RANDOM_SEED)
@@ -189,13 +206,13 @@ class Repressilator_S_PDE:
         # S_e_series = np.zeros(int(t_end/dt), dtype=float)
         A_full = np.zeros((int(self.t_end / self.dt) + 1, self.size * self.size), dtype=float)
 
-        # TODO
-        # t = 0
+        # t = 0 # by default check whole time interval
         t = self.t_start
         k = 0
         step = 0
 
         A_full[step, :] = A.flatten('F')  # [A>0]
+        selected_random_cell = choice(list(np.nonzero(A_full)[0]))
 
         a = np.arange(1, self.size, dtype=int)
         b = np.arange(0, self.size - 1, dtype=int)
@@ -265,6 +282,7 @@ class Repressilator_S_PDE:
 
             A_full[step, :] = A.flatten('F')  # [A>0]
 
+        # print(cells_index)
         # izpis casa
         if DEBUG:
             print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
@@ -274,14 +292,13 @@ class Repressilator_S_PDE:
 
         # ------------------------------------------------------------------------------------------------------------ #
         # DOES IT OSCILLATE? from start time to end time
-        result = my_utils.measure_osc(A_full[self.t_start:self.t_end, self.size * self.size - 20], T[self.t_start:self.t_end], 0.1)
+        result = my_utils.measure_osc(A_full[self.t_start:self.t_end, selected_random_cell], T[self.t_start:self.t_end], 0.1)
         if DEBUG:
             print(result)
-
         # ------------------------------------------------------------------------------------------------------------ #
         # DRAW GRAPH
         if SHOW_GRAPH:
-            self.draw_graphs(T, A_full)
+            self.draw_graphs(T, A_full, selected_random_cell)
         # ------------------------------------------------------------------------------------------------------------ #
         return result
 
@@ -290,7 +307,6 @@ if __name__ == "__main__":
     # show graphs
     SHOW_GRAPH = True
     DEBUG = True
-    ITERATIONS = 1
 
     # init repressilator model
     r = Repressilator_S_PDE()
@@ -298,5 +314,4 @@ if __name__ == "__main__":
     r.load_params()
 
     # run simulation
-    for i in range(0, ITERATIONS):
-        r.run()
+    r.run()
