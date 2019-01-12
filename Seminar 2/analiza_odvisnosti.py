@@ -139,7 +139,7 @@ if __name__ == "__main__":
     # IMPORTANT: RUN ONLY 1 of following methods!
 
     # run makeHeatmap for plot with all subplots
-    samples = 1 # USED FOR LOGSPACE function
+    samples = 15 # USED FOR LOGSPACE function
     makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run

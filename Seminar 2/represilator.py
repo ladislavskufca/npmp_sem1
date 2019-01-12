@@ -11,7 +11,7 @@ from scipy.signal import find_peaks
 import npmp_utils as my_utils
 
 # Set random seed
-RANDOM_SEED = 1234
+RANDOM_SEED = 1 #lado=1, luka=1234
 START_TIME = 0
 SHOW_GRAPH = False
 DEBUG = False
