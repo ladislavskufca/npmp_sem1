@@ -12,7 +12,7 @@ import npmp_utils as my_utils
 
 # Set random seed
 RANDOM_SEED = 1234
-START_TIME = 7000
+START_TIME = 0
 SHOW_GRAPH = False
 DEBUG = False
 

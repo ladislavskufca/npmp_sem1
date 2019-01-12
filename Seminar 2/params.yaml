@@ -1,6 +1,6 @@
 # repressilator parameters
 # alpha: 216
-# alpha0: 0.001 * salpha
+# alpha0: 0.001 * alpha
 # n: 2
 # beta: 5 
 
