@@ -108,7 +108,7 @@ def makeHeatmap(numberOfSamples=1):
 
                 results.append(helperArray)
 
-            file = open("results-k-params/44{}-{}.txt".format(counter + i, numberOfSamples), "w")
+            file = open("results-k-params/44{}-{}.txt".format(counter, numberOfSamples), "w")
             file.write(str(results))
             file.close()
 
