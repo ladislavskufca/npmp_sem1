@@ -52,23 +52,23 @@ def makeHeatmap(numberOfSamples=1):
             results = []
             ax = plt.subplot(4, 4, counter)
 
-            if i == 1:
-                plt.xlabel('Alfa')
-            if i == 2:
-                plt.xlabel('Beta')
-            if i == 3:
-                plt.xlabel('Delta_m')
-            if i == 4:
-                plt.xlabel('Kappa')
+            # if i == 1:
+                # plt.xlabel('Alfa')
+            # if i == 2:
+                # plt.xlabel('Beta')
+            # if i == 3:
+                # plt.xlabel('Delta_m')
+            # if i == 4:
+                # plt.xlabel('Kappa')
 
-            if j == 1:
-                plt.ylabel('Alfa')
-            if j == 2:
-                plt.ylabel('Beta')
-            if j == 3:
-                plt.ylabel('Delta_m')
-            if j == 4:
-                plt.ylabel('Kappa')
+            # if j == 1:
+                # plt.ylabel('Alfa')
+            # if j == 2:
+                # plt.ylabel('Beta')
+            # if j == 3:
+                # plt.ylabel('Delta_m')
+            # if j == 4:
+                # plt.ylabel('Kappa')
 
             for FIRST_PARAM in np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0):
 
@@ -79,29 +79,29 @@ def makeHeatmap(numberOfSamples=1):
 
                     if i == 1:
                         r.load_params_range_single(alpha=FIRST_PARAM)
-                        plt.xlabel('Alfa')
+                        # plt.xlabel('Alfa')
                     if i == 2:
                         r.load_params_range_single(beta=FIRST_PARAM)
-                        plt.xlabel('Beta')
+                        # plt.xlabel('Beta')
                     if i == 3:
                         r.load_params_range_single(delta_m=FIRST_PARAM)
-                        plt.xlabel('Delta_m')
+                        # plt.xlabel('Delta_m')
                     if i == 4:
                         r.load_params_range_single(kappa=FIRST_PARAM)
-                        plt.xlabel('Kappa')
+                        # plt.xlabel('Kappa')
 
                     if j == 1:
                         r.load_params_range_single(alpha=SECOND_PARAM)
-                        plt.ylabel('Alfa')
+                        # plt.ylabel('Alfa')
                     if j == 2:
                         r.load_params_range_single(beta=SECOND_PARAM)
-                        plt.ylabel('Beta')
+                        # plt.ylabel('Beta')
                     if j == 3:
                         r.load_params_range_single(delta_m=SECOND_PARAM)
-                        plt.ylabel('Delta_m')
+                        # plt.ylabel('Delta_m')
                     if j == 4:
                         r.load_params_range_single(kappa=SECOND_PARAM)
-                        plt.ylabel('Kappa')
+                        # plt.ylabel('Kappa')
 
 
                     helperArray.append(r.run()[0])
@@ -139,7 +139,7 @@ if __name__ == "__main__":
     # IMPORTANT: RUN ONLY 1 of following methods!
 
     # run makeHeatmap for plot with all subplots
-    samples = 2 # USED FOR LOGSPACE function
+    samples = 1 # USED FOR LOGSPACE function
     makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
