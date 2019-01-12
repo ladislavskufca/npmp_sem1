@@ -125,6 +125,22 @@ class Repressilator_S_PDE:
         h = p['h'] if h == -1 else h
         self.h2 = h * h
 
+    # uporabljeno za analiza_odvisnosti.py
+    def load_params_range_single(self, alpha=-1, delta_m=-1, beta=-1, kappa=-1):
+
+        if alpha != -1:
+            self.alpha = alpha
+            self.alpha0 = 0.001 * self.alpha
+
+        if delta_m != -1:
+            self.delta_m = delta_m
+
+        if delta_m != -1:
+            self.beta = beta
+
+        if kappa != -1:
+            self.kappa = kappa
+
     def set_params(self, **kwargs):
         """
         set specific parameter to new value
