@@ -93,6 +93,38 @@ class Repressilator_S_PDE:
         h = p['h']
         self.h2 = h * h
 
+    # uporabljeno za analiza_odvisnosti.py
+    def load_params_range(self, alpha=-1, Kd=-1, delta_m=-1, delta_p=-1, n=-1, beta=-1, kappa=-1, kS0=-1, kS1=-1, kSe=-1, D1=-1, eta=-1, size=-1, density=-1, t_end=-1, dt=-1, h=-1):
+        # Read YAML file
+        with open("params.yaml", 'r') as stream:
+            p = yaml.load(stream)
+
+        # nalaganje vrednosti parametrov
+        # p = load('params.mat')
+        self.alpha = p['alpha'] if alpha == -1 else alpha
+        self.alpha0 = 0.001 * self.alpha
+        self.Kd = p['Kd'] if Kd == -1 else Kd
+        self.delta_m = p['delta_m'] if delta_m == -1 else delta_m
+        self.delta_p = p['delta_p'] if delta_p == -1 else delta_p
+        self.n = p['n'] if n == -1 else n
+        self.beta = p['beta'] if beta == -1 else beta
+        self.kappa = p['kappa'] if kappa == -1 else kappa
+        self.kS0 = p['kS0'] if kS0 == -1 else kS0
+        self.kS1 = p['kS1'] if kS1 == -1 else kS1
+        self.kSe = p['kSe'] if kSe == -1 else kSe
+        self.D1 = p['D1'] if D1 == -1 else D1
+        self.eta = p['eta'] if eta == -1 else eta
+
+        self.size = p['size'] if size == -1 else size
+        self.density = p['density'] if density == -1 else density
+        self.n_cells = int(math.ceil(self.density * math.pow(self.size, 2)))
+
+        self.t_end = p['t_end'] if t_end == -1 else t_end
+        self.t_start = START_TIME
+        self.dt = p['dt'] if dt == -1 else dt
+        h = p['h'] if h == -1 else h
+        self.h2 = h * h
+
     def set_params(self, **kwargs):
         """
         set specific parameter to new value
@@ -282,7 +314,6 @@ class Repressilator_S_PDE:
 
             A_full[step, :] = A.flatten('F')  # [A>0]
 
-        # print(cells_index)
         # izpis casa
         if DEBUG:
             print("Porabljen cas: {} s.".format(time.time() - timeMeasure))
