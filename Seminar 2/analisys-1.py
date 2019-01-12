@@ -23,9 +23,9 @@ def analyse_diffusion_rate_and_density(size, number_of_examples=150):
     example_num = 0
 
     """Vpliv hitrosti difuzije na oscilacije"""
-    for density in np.linspace(start=.1, stop=1, num=5):
+    for density in np.linspace(start=.1, stop=1, num=number_of_examples):
         tmp = []
-        for d in np.linspace(start=.01, stop=3, num=number_of_examples):#.1 1
+        for d in np.linspace(start=.01, stop=1, num=number_of_examples):  # .1 1
             rep = r.Repressilator_S_PDE()
             rep.set_params(D1=d, density=density, size=size)
             # check if model oscillates
@@ -42,12 +42,15 @@ def analyse_diffusion_rate_and_density(size, number_of_examples=150):
         result.append(tmp)
 
     result = np.array(result)
+    print(result)
 
     x = np.unique(x)
     x = list(np.around(x, decimals=2))
+    print(x)
 
     y = np.unique(y)
     y = list(np.around(y, decimals=2))
+    print(y)
 
     # draw heat map
     make_heatmap(x, y, result)
@@ -161,10 +164,9 @@ def analyse_density(size=10, number_of_examples=150):
     plt.show()
 
 
-def make_heatmap(x, y, data, y_label='Gostota', x_label='Hitrost difuzije', title='Toplotna karta oscilacij'):
+def make_heatmap(x, y, data, y_label='Gostota', x_label='Hitrost difuzije'):
     """
     Draw heat map
-    :param title: graph title
     :param x_label: x label title
     :param y_label: y label title
     :param x: x values array
@@ -180,19 +182,21 @@ def make_heatmap(x, y, data, y_label='Gostota', x_label='Hitrost difuzije', titl
     fig.tight_layout()
     plt.ylabel(y_label)
     plt.xlabel(x_label)
-    plt.title(title)
     plt.show()
 
 
 if __name__ == "__main__":
-    analyse_diffusion_rate_and_density(number_of_examples=20, size=15)
+    # Vpliv hitrosti difuzije in gostote na oscilacije
+    analyse_diffusion_rate_and_density(number_of_examples=10, size=10)
+    analyse_diffusion_rate_and_density(number_of_examples=10, size=15)
+    analyse_diffusion_rate_and_density(number_of_examples=10, size=20)
 
     # Vpliv hitrosti difuzije na oscilacije pri podani velikosti prostora
-    # analyse_diffusion_rate(number_of_examples=10, size=10)
-    # analyse_diffusion_rate(number_of_examples=20, size=15)
-    # analyse_diffusion_rate(number_of_examples=20, size=20)
+    analyse_diffusion_rate(number_of_examples=10, size=10)
+    analyse_diffusion_rate(number_of_examples=20, size=15)
+    analyse_diffusion_rate(number_of_examples=20, size=20)
 
     # Vpliv gostote celic na oscilacije pri podani velikosti prostora
-    # analyse_density(number_of_examples=150, size=10)
-    # analyse_density(number_of_examples=150, size=15)
-    # analyse_density(number_of_examples=150, size=20)
+    analyse_density(number_of_examples=150, size=10)
+    analyse_density(number_of_examples=150, size=15)
+    analyse_density(number_of_examples=150, size=20)
