@@ -218,13 +218,13 @@ if __name__ == "__main__":
     # makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
-    # filename = "results-k-params/442-15" #WITHOUT TXT!
-    # samples = 15
-    # randomSeed = 1
-    # makePlotFromData(filename, samples, randomSeed)
-
-    # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
+    filename = "results-k-params/443-15" #WITHOUT TXT!
     samples = 15
     randomSeed = 1
-    defaultDirectory = "results-k-params/"
-    makePlotFromDataMulti(dir=defaultDirectory, numberOfSamples=samples, defaultRandomSeed=randomSeed)
+    makePlotFromData(filename, samples, randomSeed)
+
+    # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
+    # samples = 15
+    # randomSeed = 1
+    # defaultDirectory = "results-k-params/"
+    # makePlotFromDataMulti(dir=defaultDirectory, numberOfSamples=samples, defaultRandomSeed=randomSeed)
