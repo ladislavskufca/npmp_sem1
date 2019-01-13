@@ -6,94 +6,19 @@ import time
 import represilator as rep
 from image_annotated_heatmap import annotate_heatmap, heatmap
 
-def makePlotFromData(filename, numberOfSamples=1):
-
-
-    # filename = filename + ".txt"
-
-    # file = open(filename, "r")
-
-    # results = file.read()
-
-
-    # results = results.translate(None, '\'')
-    # results = results.translate(None, '[')
-    # results = results.translate(None, ']')
-    # results = results.translate(None, '\n')
-    # results = results.translate(None, '.')
-    # results = results.rstrip()
-    # data = []
-
-
-    # data = np.fromstring(results, dtype=int, sep=", ")
-
-    # blank = np.array([])
-    # blank = np.empty((numberOfSamples, numberOfSamples), int)
-    # helper = []
-
-    # for i in range (0, numberOfSamples*numberOfSamples):
-    #     helper.append(int(data[i]))
-    #     if (i % 14 == 0 and i != 0):
-            # helper = np.array(helper)
-            # blank = np.append(blank, np.array(helper), axis=0)
-            # helper = []
-        # for j in range (0, numberOfSamples):
-        #     helper.append(data[j])
-        # blank.append(helper)
-
-    # a = 1 + 2
-
-    # blank = np.array(blank)
-
-    # data = np.array(blank)
-    # data = blank
-
-
-
-    # results = data.append([float(x) for x in results.split("[")])
-
-    # results = np.loadtxt(dtype=str, fname=filename, delimiter=",")
-
-    # results = results.replace("'", "")
-
-    # data = np.array(results)
-    # data = data.astype(np.float)
-
-
-
-    # x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
-    # y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
-    # x = [float(i) for i in x]
-    # y = [float(j) for j in y]
-
-    # x = np.unique(x)
-    # x = list(np.around(x, decimals=2))
-
-    # y = np.unique(y)
-    # y = list(np.around(y, decimals=2))
-
-    # x = []
-    # y = []
-
-
-
-    # data = np.array(data)
+def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1):
 
 
     filename = filename + ".txt"
-
     file = open(filename, "r")
-
     results = file.read()
-
     data = results.replace("'", "").replace("[", "").replace("]", "").replace(",", "")
 
     data = data.split(" ")
     data = [int(x) for x in data]
-    data = np.reshape(data, (15, 15))
+    data = np.reshape(data, (numberOfSamples, numberOfSamples))
     x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
     y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
-
 
     """
     Draw heat map
@@ -106,8 +31,9 @@ def makePlotFromData(filename, numberOfSamples=1):
     """
     fig, ax = plt.subplots()
 
-    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="Oscilira [DA/NE]")
-    # texts = annotate_heatmap(im, valfmt="{x:d}")
+    label = "Oscilira [DA/NE], randomSeed = " + str(randomSeed)
+    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel=label)
+    texts = annotate_heatmap(im, valfmt="{x:d}")
 
     fig.tight_layout()
     plt.ylabel("Beta")
@@ -115,25 +41,7 @@ def makePlotFromData(filename, numberOfSamples=1):
     plt.show()
 
 
-
-
-
-
-
-    # filename = filename + ".txt"
-
-    # file = open(filename, "r")
-
-    # results = float(int(file.read()))
-    # fig, ax = plt.subplots()
-    # im = ax.imshow(results)
-    # ax.set_xscale('log')
-    # ax.set_yscale('log')
-    # ax.set_title('Alfa in alfa')
-    # plt.xlabel('Alfa')
-    # plt.ylabel('Alfa')
-    # plt.show()
-    # fig.savefig(filename + ".png")
+    fig.savefig(filename + ".png")
 
 def makeHeatmap(numberOfSamples=1):
 
@@ -256,4 +164,5 @@ if __name__ == "__main__":
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
     filename = "results-k-params/442-15" #WITHOUT TXT!
     samples = 15
-    makePlotFromData(filename, samples)
+    randomSeed = 1
+    makePlotFromData(filename, samples, randomSeed)
