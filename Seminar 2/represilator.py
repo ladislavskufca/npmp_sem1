@@ -55,7 +55,7 @@ class Repressilator_S_PDE:
         self.S_e = 0
         self.S_i = 0
         # time parameters
-        self.t_end = 10000
+        self.t_end = 5000
         self.t_start = START_TIME
 
     def load_params(self, file_name="params.yaml"):
