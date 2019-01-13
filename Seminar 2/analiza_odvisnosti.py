@@ -4,25 +4,63 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 import represilator as rep
+from image_annotated_heatmap import annotate_heatmap, heatmap
 
-def makePlotFromData(filename):
+def makePlotFromData(filename, numberOfSamples=1):
 
-    #TODO: get this thing working!
 
     filename = filename + ".txt"
 
     file = open(filename, "r")
 
-    results = float(int(file.read()))
+    results = file.read()
+
+
+    data = np.array(results)
+    x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
+    y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
+
+
+
+    """
+    Draw heat map
+    :param x_label: x label title
+    :param y_label: y label title
+    :param x: x values array
+    :param y: y values array
+    :param data: numpy data array
+    :return:
+    """
     fig, ax = plt.subplots()
-    im = ax.imshow(results)
-    ax.set_xscale('log')
-    ax.set_yscale('log')
+
+    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="Oscilira [DA/NE]")
+    texts = annotate_heatmap(im, valfmt="{x:d}")
+
+    fig.tight_layout()
+    # plt.ylabel(y_label)
+    # plt.xlabel(x_label)
+    plt.show()
+
+
+
+
+
+
+
+    # filename = filename + ".txt"
+
+    # file = open(filename, "r")
+
+    # results = float(int(file.read()))
+    # fig, ax = plt.subplots()
+    # im = ax.imshow(results)
+    # ax.set_xscale('log')
+    # ax.set_yscale('log')
     # ax.set_title('Alfa in alfa')
     # plt.xlabel('Alfa')
     # plt.ylabel('Alfa')
-    plt.show()
-    fig.savefig(filename + ".png")
+    # plt.show()
+    # fig.savefig(filename + ".png")
 
 def makeHeatmap(numberOfSamples=1):
 
@@ -139,9 +177,10 @@ if __name__ == "__main__":
     # IMPORTANT: RUN ONLY 1 of following methods!
 
     # run makeHeatmap for plot with all subplots
-    samples = 15 # USED FOR LOGSPACE function
-    makeHeatmap(samples)
+    # samples = 15 # USED FOR LOGSPACE function
+    # makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
-    # filename = "results-k-params/443-3" #WITHOUT TXT!
-    # makePlotFromData(filename)
+    filename = "results-k-params/443-15" #WITHOUT TXT!
+    samples = 15
+    makePlotFromData(filename, samples)
