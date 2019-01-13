@@ -6,21 +6,18 @@ import time
 import represilator as rep
 from image_annotated_heatmap import annotate_heatmap, heatmap
 
-def makePlotFromData(filename, numberOfSamples=1):
+def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1):
 
-
-    filename = filename + ".txt"
-
-    file = open(filename, "r")
-
+    filenameChanged = filename + ".txt"
+    file = open(filenameChanged, "r")
     results = file.read()
+    data = results.replace("'", "").replace("[", "").replace("]", "").replace(",", "")
 
-
-    data = np.array(results)
+    data = data.split(" ")
+    data = [int(x) for x in data]
+    data = np.reshape(data, (numberOfSamples, numberOfSamples))
     x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
     y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
-
-
 
     """
     Draw heat map
@@ -33,34 +30,74 @@ def makePlotFromData(filename, numberOfSamples=1):
     """
     fig, ax = plt.subplots()
 
-    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="Oscilira [DA/NE]")
+    label = "Oscilira [DA/NE], randomSeed = " + str(randomSeed)
+    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel=label)
     texts = annotate_heatmap(im, valfmt="{x:d}")
 
     fig.tight_layout()
-    # plt.ylabel(y_label)
-    # plt.xlabel(x_label)
+    plt.ylabel("Beta")
+    plt.xlabel("Alfa")
     plt.show()
 
 
+    fig.savefig(filename + ".png")
 
+def makePlotFromDataMulti(dir="", numberOfSamples=1, defaultRandomSeed = 1):
 
+    filenameNumbers = [1, 2, 3, 4, 6, 7, 8, 11, 12, 16]
 
+    fig = plt.figure(1)
+    # plt.rcParams.update({'font.size': 10})
+    # plt.rcParams.update({'xtick.major.size': 6})
+    # plt.rcParams.update({'ytick.major.size': 6})
 
+    for i in filenameNumbers:
+        filename = dir + "44" + str(i) + "-" +str(numberOfSamples) + ".txt"
+        file = open(filename, "r")
+        results = file.read()
+        data = results.replace("'", "").replace("[", "").replace("]", "").replace(",", "")
 
-    # filename = filename + ".txt"
+        data = data.split(" ")
+        data = [int(x) for x in data]
+        data = np.reshape(data, (numberOfSamples, numberOfSamples))
+        x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
+        y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
 
-    # file = open(filename, "r")
+        ax = plt.subplot(4, 4, i)
+        # label = "Oscilira [DA/NE], randomSeed = " + str(defaultRandomSeed)
+        x = []
+        y = []
+        im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="")
+        # texts = annotate_heatmap(im, valfmt="{x:d}")
 
-    # results = float(int(file.read()))
-    # fig, ax = plt.subplots()
-    # im = ax.imshow(results)
-    # ax.set_xscale('log')
-    # ax.set_yscale('log')
-    # ax.set_title('Alfa in alfa')
-    # plt.xlabel('Alfa')
-    # plt.ylabel('Alfa')
-    # plt.show()
-    # fig.savefig(filename + ".png")
+        # fig.tight_layout()
+        # plt.ylabel("Beta")
+        # plt.xlabel("Alfa")
+    # plt.subplots_adjust(top=0.92, bottom=0.08, left=0.10, right=0.95, hspace=0.25, wspace=0.35)
+
+    plt.show()
+    fig.savefig(dir + "finalCustom" + str(numberOfSamples) + ".png")
+
+    """
+    Draw heat map
+    :param x_label: x label title
+    :param y_label: y label title
+    :param x: x values array
+    :param y: y values array
+    :param data: numpy data array
+    :return:
+    
+    fig, ax = plt.subplots()
+
+    label = "Oscilira [DA/NE], randomSeed = " + str(randomSeed)
+    im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel=label)
+    texts = annotate_heatmap(im, valfmt="{x:d}")
+
+    fig.tight_layout()
+    plt.ylabel("Beta")
+    plt.xlabel("Alfa")
+    plt.show()
+    """
 
 def makeHeatmap(numberOfSamples=1):
 
@@ -181,6 +218,13 @@ if __name__ == "__main__":
     # makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
-    filename = "results-k-params/443-15" #WITHOUT TXT!
+    # filename = "results-k-params/442-15" #WITHOUT TXT!
+    # samples = 15
+    # randomSeed = 1
+    # makePlotFromData(filename, samples, randomSeed)
+
+    # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
     samples = 15
-    makePlotFromData(filename, samples)
+    randomSeed = 1
+    defaultDirectory = "results-k-params/"
+    makePlotFromDataMulti(dir=defaultDirectory, numberOfSamples=samples, defaultRandomSeed=randomSeed)
