@@ -6,7 +6,7 @@ import time
 import represilator as rep
 from image_annotated_heatmap import annotate_heatmap, heatmap
 
-def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1):
+def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1, labelx="", labely=""):
 
     filenameChanged = filename + ".txt"
     file = open(filenameChanged, "r")
@@ -35,8 +35,8 @@ def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1):
     texts = annotate_heatmap(im, valfmt="{x:d}")
 
     fig.tight_layout()
-    plt.ylabel("Beta")
-    plt.xlabel("Alfa")
+    plt.xlabel(labelx)
+    plt.ylabel(labely)
     plt.show()
 
 
@@ -221,7 +221,9 @@ if __name__ == "__main__":
     filename = "results-k-params/443-15" #WITHOUT TXT!
     samples = 15
     randomSeed = 1
-    makePlotFromData(filename, samples, randomSeed)
+    labelaX = "Alfa"
+    labelaY = "Delta_m"
+    makePlotFromData(filename, samples, randomSeed, labelx=labelaX, labely=labelaY)
 
     # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
     # samples = 15
