@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import time
+from matplotlib.colors import LogNorm
 import represilator as rep
 from image_annotated_heatmap import annotate_heatmap, heatmap
 
@@ -67,9 +68,19 @@ def makePlotFromDataMulti(dir="", numberOfSamples=1, defaultRandomSeed = 1):
 
         ax = plt.subplot(4, 4, i)
         # label = "Oscilira [DA/NE], randomSeed = " + str(defaultRandomSeed)
-        x = []
-        y = []
-        im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="")
+        # x = []
+        # y = []
+        # c = ax.pcolor(x, y, data, cmap='RdBu', norm=LogNorm(vmin=10^(-3), vmax=10))
+        c = ax.pcolor(x, y, data, cmap='Greens_r', norm=LogNorm())
+        plt.xscale('log')
+        plt.yscale('log')
+        # if i!=1:
+        #     ax.set_yticklabels([])
+        #     ax.set_xticklabels([])
+        # fig.colorbar(c, ax=ax)
+        # ax.axis(x[0], x[14], y[0], y[14])
+        # c = ax.pcolor(x, y, data, cmap='RdBu')
+        # im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel="")
         # texts = annotate_heatmap(im, valfmt="{x:d}")
 
         # fig.tight_layout()
@@ -78,7 +89,7 @@ def makePlotFromDataMulti(dir="", numberOfSamples=1, defaultRandomSeed = 1):
     # plt.subplots_adjust(top=0.92, bottom=0.08, left=0.10, right=0.95, hspace=0.25, wspace=0.35)
 
     plt.show()
-    fig.savefig(dir + "finalCustom" + str(numberOfSamples) + ".png")
+    fig.savefig(dir + "finalCustom" + str(numberOfSamples) + "-popravljeno.png")
 
     """
     Draw heat map
@@ -220,15 +231,15 @@ if __name__ == "__main__":
     # makeHeatmap(samples)
 
     # run makePlotFromData with filename to draw only 1 heatmap for specific run
-    filename = "results-k-params/443-15" #WITHOUT TXT!
-    samples = 15
-    randomSeed = 1
-    labelaX = "Alfa"
-    labelaY = "Delta_m"
-    makePlotFromData(filename, samples, randomSeed, labelx=labelaX, labely=labelaY)
-
-    # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
+    # filename = "results-k-params/443-15" #WITHOUT TXT!
     # samples = 15
     # randomSeed = 1
-    # defaultDirectory = "results-k-params/"
-    # makePlotFromDataMulti(dir=defaultDirectory, numberOfSamples=samples, defaultRandomSeed=randomSeed)
+    # labelaX = "Alfa"
+    # labelaY = "Delta_m"
+    # makePlotFromData(filename, samples, randomSeed, labelx=labelaX, labely=labelaY)
+
+    # run makePlotFromDataMulti with directory to draw all heatmaps for specific run
+    samples = 15
+    randomSeed = 1
+    defaultDirectory = "results-k-params/"
+    makePlotFromDataMulti(dir=defaultDirectory, numberOfSamples=samples, defaultRandomSeed=randomSeed)
