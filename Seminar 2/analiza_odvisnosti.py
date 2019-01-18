@@ -18,6 +18,8 @@ def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1, labelx="", lab
     data = np.reshape(data, (numberOfSamples, numberOfSamples))
     x = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
     y = np.logspace(start=-3, stop=1, num=numberOfSamples, base=10.0)
+    np.around(x, decimals=3, out=x)
+    np.around(y, decimals=3, out=y)
 
     """
     Draw heat map
@@ -32,7 +34,7 @@ def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1, labelx="", lab
 
     label = "Oscilira [DA/NE], randomSeed = " + str(randomSeed)
     im, cbar = heatmap(data, x, y, ax=ax, cmap="YlGn", cbarlabel=label)
-    texts = annotate_heatmap(im, valfmt="{x:d}")
+    # texts = annotate_heatmap(im, valfmt="{x:d}")
 
     fig.tight_layout()
     plt.xlabel(labelx)
@@ -40,7 +42,7 @@ def makePlotFromData(filename, numberOfSamples=1, randomSeed = 1, labelx="", lab
     plt.show()
 
 
-    fig.savefig(filename + ".png")
+    fig.savefig(filename + "-popravljeno.png")
 
 def makePlotFromDataMulti(dir="", numberOfSamples=1, defaultRandomSeed = 1):
 
